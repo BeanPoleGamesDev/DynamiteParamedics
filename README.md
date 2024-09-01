@@ -22,7 +22,7 @@ both the ambulance
 # Code
  
 Scoring
-- number of objects you can explode.
+- number of objects you can explode. (golf rules)
 
 # Art
 
