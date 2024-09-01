@@ -16,7 +16,8 @@ both the ambulance
 
 - resolution.
 - screen 800x800
-- tile size 32x32
+- tile size 16x16
+- character 32x32
 
 # Code
  
@@ -39,7 +40,17 @@ Pixel Art - Austin
 - explostion
 - checker area
 - flag
-- obstical sprites.
+- obsticals
+    - imovable archor, destroyable
+    - imovable archor, indestructable.
+    - cross
+    - circle, muliple sizes
+    - square 1
+    - L shapes 
+    - I shapes
+    - square x4
+    - H shape
+    - half squares
 
 
 
