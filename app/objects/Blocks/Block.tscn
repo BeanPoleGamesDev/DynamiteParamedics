@@ -1,3 +1,4 @@
 [gd_scene format=3 uid="uid://b5iw6y8hrwoph"]
 
-[node name="RigidBody2D" type="RigidBody2D"]
+[node name="Block" type="RigidBody2D"]
+texture_filter = 1

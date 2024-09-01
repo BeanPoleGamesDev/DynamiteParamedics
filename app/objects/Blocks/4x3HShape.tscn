@@ -1,5 +1,47 @@
-[gd_scene load_steps=2 format=3 uid="uid://ka3giuyj5gmc"]
+[gd_scene load_steps=6 format=3 uid="uid://ka3giuyj5gmc"]
 
 [ext_resource type="PackedScene" uid="uid://b5iw6y8hrwoph" path="res://app/objects/Blocks/Block.tscn" id="1_wp4mo"]
+[ext_resource type="Texture2D" uid="uid://4o27qt4fhtwa" path="res://assets/blocks/h3x4.png" id="2_bn3js"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_oo50t"]
+size = Vector2(20, 102)
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_oushy"]
+radius = 7.0
+height = 102.0
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_a13jo"]
+size = Vector2(102, 33.5)
 
 [node name="Block" instance=ExtResource("1_wp4mo")]
+
+[node name="Sprite2D" type="Sprite2D" parent="." index="0"]
+scale = Vector2(2.125, 2.125)
+texture = ExtResource("2_bn3js")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." index="1"]
+position = Vector2(-51, 0)
+shape = SubResource("RectangleShape2D_oo50t")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="." index="2"]
+position = Vector2(-61, 0)
+shape = SubResource("CapsuleShape2D_oushy")
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="." index="3"]
+position = Vector2(-41, 0)
+shape = SubResource("CapsuleShape2D_oushy")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="." index="4"]
+position = Vector2(51, 0)
+shape = SubResource("RectangleShape2D_oo50t")
+
+[node name="CollisionShape2D7" type="CollisionShape2D" parent="." index="5"]
+shape = SubResource("RectangleShape2D_a13jo")
+
+[node name="CollisionShape2D5" type="CollisionShape2D" parent="." index="6"]
+position = Vector2(41, 0)
+shape = SubResource("CapsuleShape2D_oushy")
+
+[node name="CollisionShape2D6" type="CollisionShape2D" parent="." index="7"]
+position = Vector2(61, 0)
+shape = SubResource("CapsuleShape2D_oushy")

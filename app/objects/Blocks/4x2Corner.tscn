@@ -1,3 +1,43 @@
-[gd_scene format=3 uid="uid://613q751wekob"]
+[gd_scene load_steps=7 format=3 uid="uid://613q751wekob"]
 
-[node name="Block" type="Node2D"]
+[ext_resource type="PackedScene" uid="uid://b5iw6y8hrwoph" path="res://app/objects/Blocks/Block.tscn" id="1_mgn2f"]
+[ext_resource type="Texture2D" uid="uid://c7ho3p2ku7rul" path="res://assets/blocks/corner2x4.png" id="2_vr4xa"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ar2c7"]
+size = Vector2(20, 136)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_li4rk"]
+size = Vector2(51, 34)
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_tgu8n"]
+radius = 7.0
+height = 136.0
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_2ohsg"]
+height = 34.0
+
+[node name="Block" instance=ExtResource("1_mgn2f")]
+
+[node name="Sprite2D" type="Sprite2D" parent="." index="0"]
+scale = Vector2(2.125, 2.125)
+texture = ExtResource("2_vr4xa")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." index="1"]
+position = Vector2(-17, 0)
+shape = SubResource("RectangleShape2D_ar2c7")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="." index="2"]
+position = Vector2(-1, 51)
+shape = SubResource("RectangleShape2D_li4rk")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="." index="3"]
+position = Vector2(-27, 0)
+shape = SubResource("CapsuleShape2D_tgu8n")
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="." index="4"]
+position = Vector2(-7, 0)
+shape = SubResource("CapsuleShape2D_tgu8n")
+
+[node name="CollisionShape2D5" type="CollisionShape2D" parent="." index="5"]
+position = Vector2(24, 51)
+shape = SubResource("CapsuleShape2D_2ohsg")

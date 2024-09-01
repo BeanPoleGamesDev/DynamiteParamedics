@@ -1,5 +1,16 @@
-[gd_scene load_steps=2 format=3 uid="uid://dlp201hrn1dfd"]
+[gd_scene load_steps=4 format=3 uid="uid://dlp201hrn1dfd"]
 
 [ext_resource type="PackedScene" uid="uid://b5iw6y8hrwoph" path="res://app/objects/Blocks/Block.tscn" id="1_v8ef8"]
+[ext_resource type="Texture2D" uid="uid://drdqulek2wf17" path="res://assets/blocks/cir2x2.png" id="2_f2ych"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_gyk4d"]
+radius = 35.0571
 
 [node name="Block" instance=ExtResource("1_v8ef8")]
+
+[node name="Sprite2D" type="Sprite2D" parent="." index="0"]
+scale = Vector2(2.125, 2.125)
+texture = ExtResource("2_f2ych")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." index="1"]
+shape = SubResource("CircleShape2D_gyk4d")
