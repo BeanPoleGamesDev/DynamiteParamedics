@@ -1,17 +1,15 @@
-[gd_scene load_steps=5 format=3 uid="uid://br6wr6v8oulnp"]
+[gd_scene load_steps=4 format=3 uid="uid://br6wr6v8oulnp"]
 
 [ext_resource type="PackedScene" uid="uid://dics4vpm8vwke" path="res://app/scenes/LevelBase.tscn" id="1_6tp2w"]
 [ext_resource type="PackedScene" uid="uid://ccevlx5p0brdm" path="res://app/objects/Blocks/Square.tscn" id="2_d1tcx"]
 [ext_resource type="PackedScene" uid="uid://5gyywbjp2kwa" path="res://app/objects/Dynamite.tscn" id="3_pk5hu"]
-[ext_resource type="Script" path="res://app/objects/dynamite.gd" id="4_ujfwl"]
 
 [node name="LevelBase" instance=ExtResource("1_6tp2w")]
 
 [node name="Block" parent="." index="0" instance=ExtResource("2_d1tcx")]
 position = Vector2(254, 124)
 
-[node name="Dynamite" parent="Block" index="5" instance=ExtResource("3_pk5hu")]
-script = ExtResource("4_ujfwl")
+[node name="Dynamite" parent="Block" index="4" instance=ExtResource("3_pk5hu")]
 
 [node name="Block2" parent="." index="1" instance=ExtResource("2_d1tcx")]
 position = Vector2(164, 65)
