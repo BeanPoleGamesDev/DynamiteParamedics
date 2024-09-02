@@ -8,7 +8,7 @@
 [ext_resource type="PackedScene" uid="uid://dlp201hrn1dfd" path="res://app/objects/Blocks/2x2Circle.tscn" id="8_n10ym"]
 [ext_resource type="PackedScene" uid="uid://cbh1mqryh3fxp" path="res://app/objects/Blocks/3x3HShape.tscn" id="11_dur4v"]
 
-[node name="LevelBase2" instance=ExtResource("1_yqkci")]
+[node name="LevelBase3" instance=ExtResource("1_yqkci")]
 texture_filter = 1
 
 [node name="RigidBody2D" parent="." index="1" instance=ExtResource("2_8qjq6")]
