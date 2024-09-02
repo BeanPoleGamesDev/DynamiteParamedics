@@ -1,13 +1,10 @@
-[gd_scene load_steps=6 format=3 uid="uid://bet0jwi8td0lk"]
+[gd_scene load_steps=5 format=3 uid="uid://bet0jwi8td0lk"]
 
 [ext_resource type="Texture2D" uid="uid://csu6r3j4r6mih" path="res://assets/blocks/rect1x2.png" id="1_4alub"]
 [ext_resource type="PackedScene" uid="uid://b5iw6y8hrwoph" path="res://app/objects/Blocks/Block.tscn" id="1_41ir4"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_acxa0"]
 size = Vector2(20, 68)
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_4mtjm"]
-size = Vector2(34, 20)
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_cxrvy"]
 radius = 7.0
@@ -22,13 +19,10 @@ texture = ExtResource("1_4alub")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." index="1"]
 shape = SubResource("RectangleShape2D_acxa0")
 
-[node name="CollisionShape2D2" type="CollisionShape2D" parent="." index="2"]
-shape = SubResource("RectangleShape2D_4mtjm")
-
-[node name="CollisionShape2D3" type="CollisionShape2D" parent="." index="3"]
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="." index="2"]
 position = Vector2(-10, 0)
 shape = SubResource("CapsuleShape2D_cxrvy")
 
-[node name="CollisionShape2D4" type="CollisionShape2D" parent="." index="4"]
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="." index="3"]
 position = Vector2(10, 0)
 shape = SubResource("CapsuleShape2D_cxrvy")
