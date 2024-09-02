@@ -1,7 +1,10 @@
-[gd_scene load_steps=3 format=3 uid="uid://4mfqbl8yjvso"]
+[gd_scene load_steps=6 format=3 uid="uid://4mfqbl8yjvso"]
 
 [ext_resource type="Script" path="res://app/autoloads/sound_global.gd" id="1_6wnr0"]
 [ext_resource type="AudioStream" uid="uid://dmh521ndn48dt" path="res://assets/SoundEffects/explosion-91872.mp3" id="2_d51sd"]
+[ext_resource type="AudioStream" uid="uid://d11qwb52nkl70" path="res://assets/SoundEffects/rock-break.mp3" id="3_ran76"]
+[ext_resource type="AudioStream" uid="uid://vj83qsbk5b2y" path="res://assets/SoundEffects/sfx-helicopter.mp3" id="4_uptpj"]
+[ext_resource type="AudioStream" uid="uid://dc6bxeovj2di1" path="res://assets/SoundEffects/siren-6053.mp3" id="5_3ml5d"]
 
 [node name="sound_global" type="Node"]
 script = ExtResource("1_6wnr0")
@@ -10,10 +13,12 @@ script = ExtResource("1_6wnr0")
 stream = ExtResource("2_d51sd")
 
 [node name="rock_break" type="AudioStreamPlayer" parent="."]
-stream = ExtResource("2_d51sd")
+stream = ExtResource("3_ran76")
 
 [node name="helicopter" type="AudioStreamPlayer" parent="."]
-stream = ExtResource("2_d51sd")
+stream = ExtResource("4_uptpj")
 
 [node name="siren" type="AudioStreamPlayer" parent="."]
-stream = ExtResource("2_d51sd")
+stream = ExtResource("5_3ml5d")
+volume_db = -0.265
+pitch_scale = 0.42

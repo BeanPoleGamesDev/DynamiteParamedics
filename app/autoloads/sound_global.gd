@@ -9,3 +9,12 @@ extends Node
 
 func play_explosion():
 	explosion.play()
+
+func play_helicopter():
+	helicopter.play()
+
+func play_siren():
+	siren.play()
+
+func play_rock_break():
+	rock_break.play()
