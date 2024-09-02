@@ -19,9 +19,6 @@ position = Vector2(256, -384)
 [node name="flag" parent="." index="2" instance=ExtResource("3_y7v6q")]
 position = Vector2(256, 504)
 
-[node name="Ground" parent="." index="4"]
-position = Vector2(408, 799)
-
 [node name="Block26" parent="." index="5" instance=ExtResource("4_sw6q8")]
 position = Vector2(264, 352)
 

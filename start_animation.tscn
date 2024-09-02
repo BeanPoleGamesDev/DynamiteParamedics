@@ -1,22 +1,22 @@
-[gd_scene load_steps=19 format=3 uid="uid://b1jqk2wumfs5g"]
+[gd_scene load_steps=19 format=3 uid="uid://7k0ipalpfe5x"]
 
-[ext_resource type="Texture2D" uid="uid://bjxiwguxdnup6" path="res://assets/miriamAnimation/Untitled18_20240831214111.webp" id="1_2au3p"]
+[ext_resource type="Texture2D" uid="uid://bprxdgkyqyf4h" path="res://assets/miriamAnimation/Untitled18_20240831214111.webp" id="1_2au3p"]
 [ext_resource type="Script" path="res://start_animation.gd" id="1_8iw13"]
-[ext_resource type="Texture2D" uid="uid://dug1o7iavk0l2" path="res://assets/miriamAnimation/Untitled18_20240831214213.webp" id="2_sh7w1"]
-[ext_resource type="Texture2D" uid="uid://c8stw4xb45pjt" path="res://assets/miriamAnimation/Untitled18_20240831214245.webp" id="3_h53y2"]
-[ext_resource type="Texture2D" uid="uid://b03g3y10q4dd0" path="res://assets/miriamAnimation/Untitled18_20240831214334.webp" id="4_si12s"]
-[ext_resource type="Texture2D" uid="uid://dhd7275kx5xkk" path="res://assets/miriamAnimation/Untitled18_20240831214404.webp" id="5_qvqxi"]
-[ext_resource type="Texture2D" uid="uid://ci1hbi84pbklt" path="res://assets/miriamAnimation/Untitled18_20240831214552.webp" id="6_2my2k"]
-[ext_resource type="Texture2D" uid="uid://buc3u0ktephu2" path="res://assets/miriamAnimation/Untitled18_20240831214618.webp" id="7_vmhpn"]
-[ext_resource type="Texture2D" uid="uid://dy3i0i8v5o3lk" path="res://assets/miriamAnimation/Untitled18_20240831214638.webp" id="8_8gg6v"]
-[ext_resource type="Texture2D" uid="uid://c68kss4n34w1x" path="res://assets/miriamAnimation/Untitled18_20240831214709.webp" id="9_86av1"]
-[ext_resource type="Texture2D" uid="uid://ddglxxcsn8rr1" path="res://assets/miriamAnimation/Untitled18_20240831214801.webp" id="10_dbwxx"]
-[ext_resource type="Texture2D" uid="uid://dc6sboaymkcql" path="res://assets/miriamAnimation/Untitled18_20240831214819.webp" id="11_1rjbs"]
-[ext_resource type="Texture2D" uid="uid://q8m83b6svve4" path="res://assets/miriamAnimation/Untitled18_20240831214830.webp" id="12_lvs0d"]
-[ext_resource type="Texture2D" uid="uid://ydkdago6hmhp" path="res://assets/miriamAnimation/Untitled18_20240831214839.webp" id="13_q6sps"]
-[ext_resource type="Texture2D" uid="uid://h3x1ssfa3udu" path="res://assets/miriamAnimation/Untitled18_20240831214918.webp" id="14_sro8k"]
-[ext_resource type="Texture2D" uid="uid://op8wogvclp3t" path="res://assets/miriamAnimation/Untitled18_20240831215232.webp" id="15_dg138"]
-[ext_resource type="Texture2D" uid="uid://dfah4nqf0uars" path="res://assets/miriamAnimation/Untitled18_20240831214950.webp" id="16_4hv78"]
+[ext_resource type="Texture2D" uid="uid://bj561dprysl7d" path="res://assets/miriamAnimation/Untitled18_20240831214213.webp" id="2_sh7w1"]
+[ext_resource type="Texture2D" uid="uid://6e6qm4nmjhkc" path="res://assets/miriamAnimation/Untitled18_20240831214245.webp" id="3_h53y2"]
+[ext_resource type="Texture2D" uid="uid://bc4an3ru87a6n" path="res://assets/miriamAnimation/Untitled18_20240831214334.webp" id="4_si12s"]
+[ext_resource type="Texture2D" uid="uid://bldywauyr8bo4" path="res://assets/miriamAnimation/Untitled18_20240831214404.webp" id="5_qvqxi"]
+[ext_resource type="Texture2D" uid="uid://d2bdmxto8w1yx" path="res://assets/miriamAnimation/Untitled18_20240831214552.webp" id="6_2my2k"]
+[ext_resource type="Texture2D" uid="uid://dfrdhhwm30ra1" path="res://assets/miriamAnimation/Untitled18_20240831214618.webp" id="7_vmhpn"]
+[ext_resource type="Texture2D" uid="uid://c2l87u70igped" path="res://assets/miriamAnimation/Untitled18_20240831214638.webp" id="8_8gg6v"]
+[ext_resource type="Texture2D" uid="uid://bt1afupl2i7vv" path="res://assets/miriamAnimation/Untitled18_20240831214709.webp" id="9_86av1"]
+[ext_resource type="Texture2D" uid="uid://b7n8hnh0cteaq" path="res://assets/miriamAnimation/Untitled18_20240831214801.webp" id="10_dbwxx"]
+[ext_resource type="Texture2D" uid="uid://ctl5p33jbxhw7" path="res://assets/miriamAnimation/Untitled18_20240831214819.webp" id="11_1rjbs"]
+[ext_resource type="Texture2D" uid="uid://caakelja0wbqe" path="res://assets/miriamAnimation/Untitled18_20240831214830.webp" id="12_lvs0d"]
+[ext_resource type="Texture2D" uid="uid://c04xcklkvasai" path="res://assets/miriamAnimation/Untitled18_20240831214839.webp" id="13_q6sps"]
+[ext_resource type="Texture2D" uid="uid://bn22spx8ye3xk" path="res://assets/miriamAnimation/Untitled18_20240831214918.webp" id="14_sro8k"]
+[ext_resource type="Texture2D" uid="uid://6knu0ionyof3" path="res://assets/miriamAnimation/Untitled18_20240831215232.webp" id="15_dg138"]
+[ext_resource type="Texture2D" uid="uid://tcub43v2hshd" path="res://assets/miriamAnimation/Untitled18_20240831214950.webp" id="16_4hv78"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_qfwwp"]
 animations = [{
@@ -78,7 +78,7 @@ animations = [{
 script = ExtResource("1_8iw13")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-scale = Vector2(1.28956, 1.28956)
+scale = Vector2(0.810127, 0.810127)
 sprite_frames = SubResource("SpriteFrames_qfwwp")
 animation = &"start"
 autoplay = "start"
