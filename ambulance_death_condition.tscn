@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://djtqo80cxne2k"]
+
+[ext_resource type="Script" path="res://ambulance_death_condition.gd" id="1_aev8h"]
+
+[node name="ambulance_death_condition" type="Node"]
+script = ExtResource("1_aev8h")

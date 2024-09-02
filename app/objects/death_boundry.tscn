@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://s6d4wj1phk88"]
+
+[ext_resource type="Script" path="res://app/objects/death_boundry.gd" id="1_bkf8s"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5jctu"]
+size = Vector2(2788, 197)
+
+[node name="death_boundry" type="Node2D"]
+script = ExtResource("1_bkf8s")
+
+[node name="boundry" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="boundry"]
+position = Vector2(0, 88.5)
+shape = SubResource("RectangleShape2D_5jctu")
+
+[connection signal="body_entered" from="boundry" to="." method="_on_boundry_body_entered"]
