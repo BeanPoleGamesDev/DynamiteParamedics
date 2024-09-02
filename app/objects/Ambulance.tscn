@@ -1,24 +1,23 @@
 [gd_scene load_steps=3 format=3 uid="uid://um1mj5quqvhy"]
 
-[ext_resource type="Texture2D" uid="uid://dgg117ex2scfp" path="res://assets/Ambulance.png" id="1_shske"]
+[ext_resource type="Texture2D" uid="uid://dbgrvdn7doctm" path="res://assets/Ambulance.png" id="1_shske"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_t3bad"]
-radius = 13.1529
+radius = 6.08276
 
 [node name="ambulance" type="RigidBody2D" groups=["ambulance"]]
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture_filter = 1
-scale = Vector2(2.125, 2.125)
 texture = ExtResource("1_shske")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(-15, 34)
+position = Vector2(-7, 16)
 shape = SubResource("CircleShape2D_t3bad")
 
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="."]
-position = Vector2(38, 34)
+position = Vector2(18, 16)
 shape = SubResource("CircleShape2D_t3bad")
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
-polygon = PackedVector2Array(-7, -33, -16, -16, -17, 0, -38, 0, -51, 13, -51, 28, -44, 34, -29, 34, -29, 20, 0, 20, 0, 34, 24, 34, 24, 20, 51, 20, 52, -17, 33, -35)
+polygon = PackedVector2Array(-3, -17, -8, -9, -8, 0, -18, 0, -24, 6, -24, 13, -21, 16, -13, 16, -13, 10, -1, 10, -1, 16, 12, 16, 12, 10, 24, 10, 24, -10, 17, -16)

@@ -4,14 +4,13 @@
 [ext_resource type="Texture2D" uid="uid://kepb3k6q1hlf" path="res://assets/blocks/permaAnchor.png" id="2_hbuqt"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_2n4n2"]
-size = Vector2(34, 34)
+size = Vector2(16, 16)
 
 [node name="StaticBlock" instance=ExtResource("1_0364m")]
 
 [node name="Sprite2D" type="Sprite2D" parent="." index="0"]
 texture_filter = 1
 position = Vector2(-1.90735e-06, -1.90735e-06)
-scale = Vector2(2.125, 2.125)
 texture = ExtResource("2_hbuqt")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." index="1"]

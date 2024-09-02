@@ -4,12 +4,11 @@
 [ext_resource type="Texture2D" uid="uid://clcga1d1ejqjs" path="res://assets/blocks/cir2x2.png" id="2_f2ych"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_gyk4d"]
-radius = 35.0571
+radius = 17.0
 
 [node name="Block" instance=ExtResource("1_v8ef8")]
 
 [node name="Sprite2D" type="Sprite2D" parent="." index="0"]
-scale = Vector2(2.125, 2.125)
 texture = ExtResource("2_f2ych")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." index="1"]

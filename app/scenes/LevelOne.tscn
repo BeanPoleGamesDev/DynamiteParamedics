@@ -1,47 +1,196 @@
-[gd_scene load_steps=7 format=3 uid="uid://br6wr6v8oulnp"]
+[gd_scene load_steps=8 format=3 uid="uid://br6wr6v8oulnp"]
 
 [ext_resource type="PackedScene" uid="uid://dics4vpm8vwke" path="res://app/scenes/LevelBase.tscn" id="1_6tp2w"]
 [ext_resource type="PackedScene" uid="uid://cbh1mqryh3fxp" path="res://app/objects/Blocks/3x3HShape.tscn" id="2_4xbjl"]
 [ext_resource type="PackedScene" uid="uid://ccevlx5p0brdm" path="res://app/objects/Blocks/Square.tscn" id="2_d1tcx"]
 [ext_resource type="PackedScene" uid="uid://xgohpf77yi2h" path="res://app/objects/Blocks/Cross.tscn" id="2_gcdds"]
 [ext_resource type="PackedScene" uid="uid://um1mj5quqvhy" path="res://app/objects/Ambulance.tscn" id="4_rin53"]
-[ext_resource type="PackedScene" path="res://app/objects/flag.tscn" id="5_dpxc6"]
+[ext_resource type="PackedScene" uid="uid://c0smm1bcaqjpm" path="res://app/objects/flag.tscn" id="5_dpxc6"]
+[ext_resource type="PackedScene" uid="uid://bet0jwi8td0lk" path="res://app/objects/Blocks/2x1Rectangle.tscn" id="6_j3irl"]
 
 [node name="LevelBase2" instance=ExtResource("1_6tp2w")]
 texture_filter = 1
 
 [node name="RigidBody2D" parent="." index="1" instance=ExtResource("4_rin53")]
-position = Vector2(341, -57)
+position = Vector2(248, -24)
 
 [node name="flag" parent="." index="2" instance=ExtResource("5_dpxc6")]
-position = Vector2(415, 776)
+position = Vector2(256, 504)
 
 [node name="Block2" parent="." index="4" instance=ExtResource("2_4xbjl")]
-position = Vector2(323, 731)
+position = Vector2(224, 472)
 
-[node name="Block4" parent="." index="5" instance=ExtResource("2_4xbjl")]
-position = Vector2(391, 595)
+[node name="Block45" parent="." index="5" instance=ExtResource("2_4xbjl")]
+position = Vector2(176, 472)
 
-[node name="Block5" parent="." index="6" instance=ExtResource("2_4xbjl")]
-position = Vector2(459, 731)
+[node name="Block4" parent="." index="6" instance=ExtResource("2_4xbjl")]
+position = Vector2(256, 408)
 
-[node name="Block6" parent="." index="7" instance=ExtResource("2_d1tcx")]
-position = Vector2(357, 527)
+[node name="Block5" parent="." index="7" instance=ExtResource("2_4xbjl")]
+position = Vector2(288, 472)
 
-[node name="Block7" parent="." index="8" instance=ExtResource("2_d1tcx")]
-position = Vector2(391, 527)
+[node name="Block46" parent="." index="8" instance=ExtResource("2_4xbjl")]
+position = Vector2(336, 472)
 
-[node name="Block10" parent="." index="9" instance=ExtResource("2_d1tcx")]
-position = Vector2(391, 493)
+[node name="Block8" parent="." index="9" instance=ExtResource("2_d1tcx")]
+position = Vector2(256, 392)
 
-[node name="Block8" parent="." index="10" instance=ExtResource("2_d1tcx")]
-position = Vector2(391, 561)
+[node name="Block9" parent="." index="10" instance=ExtResource("2_d1tcx")]
+position = Vector2(272, 376)
 
-[node name="Block9" parent="." index="11" instance=ExtResource("2_d1tcx")]
-position = Vector2(425, 527)
+[node name="Block10" parent="." index="11" instance=ExtResource("2_d1tcx")]
+position = Vector2(240, 360)
 
-[node name="Block" parent="." index="12" instance=ExtResource("2_gcdds")]
-position = Vector2(323, 663)
+[node name="Block6" parent="." index="12" instance=ExtResource("6_j3irl")]
+position = Vector2(248, 376)
+rotation = 1.5708
 
-[node name="Block3" parent="." index="13" instance=ExtResource("2_gcdds")]
-position = Vector2(459, 663)
+[node name="Block7" parent="." index="13" instance=ExtResource("6_j3irl")]
+position = Vector2(264, 360)
+rotation = 1.5708
+
+[node name="Block11" parent="." index="14" instance=ExtResource("2_d1tcx")]
+position = Vector2(272, 344)
+
+[node name="Block12" parent="." index="15" instance=ExtResource("2_d1tcx")]
+position = Vector2(240, 328)
+
+[node name="Block13" parent="." index="16" instance=ExtResource("6_j3irl")]
+position = Vector2(248, 344)
+rotation = 1.5708
+
+[node name="Block14" parent="." index="17" instance=ExtResource("6_j3irl")]
+position = Vector2(264, 328)
+rotation = 1.5708
+
+[node name="Block15" parent="." index="18" instance=ExtResource("2_d1tcx")]
+position = Vector2(272, 312)
+
+[node name="Block16" parent="." index="19" instance=ExtResource("2_d1tcx")]
+position = Vector2(240, 296)
+
+[node name="Block17" parent="." index="20" instance=ExtResource("6_j3irl")]
+position = Vector2(248, 312)
+rotation = 1.5708
+
+[node name="Block18" parent="." index="21" instance=ExtResource("6_j3irl")]
+position = Vector2(264, 296)
+rotation = 1.5708
+
+[node name="Block32" parent="." index="22" instance=ExtResource("2_d1tcx")]
+position = Vector2(272, 280)
+
+[node name="Block34" parent="." index="23" instance=ExtResource("2_d1tcx")]
+position = Vector2(240, 264)
+
+[node name="Block51" parent="." index="24" instance=ExtResource("6_j3irl")]
+position = Vector2(248, 280)
+rotation = 1.5708
+
+[node name="Block52" parent="." index="25" instance=ExtResource("6_j3irl")]
+position = Vector2(264, 264)
+rotation = 1.5708
+
+[node name="Block19" parent="." index="26" instance=ExtResource("2_d1tcx")]
+position = Vector2(320, 408)
+
+[node name="Block48" parent="." index="27" instance=ExtResource("2_d1tcx")]
+position = Vector2(320, 440)
+
+[node name="Block20" parent="." index="28" instance=ExtResource("2_d1tcx")]
+position = Vector2(288, 392)
+
+[node name="Block21" parent="." index="29" instance=ExtResource("6_j3irl")]
+position = Vector2(296, 408)
+rotation = 1.5708
+
+[node name="Block31" parent="." index="30" instance=ExtResource("6_j3irl")]
+position = Vector2(312, 424)
+rotation = 1.5708
+
+[node name="Block44" parent="." index="31" instance=ExtResource("6_j3irl")]
+position = Vector2(200, 424)
+rotation = 1.5708
+
+[node name="Block22" parent="." index="32" instance=ExtResource("6_j3irl")]
+position = Vector2(312, 392)
+rotation = 1.5708
+
+[node name="Block23" parent="." index="33" instance=ExtResource("2_d1tcx")]
+position = Vector2(320, 376)
+
+[node name="Block24" parent="." index="34" instance=ExtResource("2_d1tcx")]
+position = Vector2(288, 360)
+
+[node name="Block25" parent="." index="35" instance=ExtResource("6_j3irl")]
+position = Vector2(296, 376)
+rotation = 1.5708
+
+[node name="Block26" parent="." index="36" instance=ExtResource("6_j3irl")]
+position = Vector2(312, 360)
+rotation = 1.5708
+
+[node name="Block27" parent="." index="37" instance=ExtResource("2_d1tcx")]
+position = Vector2(320, 344)
+
+[node name="Block28" parent="." index="38" instance=ExtResource("2_d1tcx")]
+position = Vector2(288, 328)
+
+[node name="Block29" parent="." index="39" instance=ExtResource("6_j3irl")]
+position = Vector2(296, 344)
+rotation = 1.5708
+
+[node name="Block30" parent="." index="40" instance=ExtResource("6_j3irl")]
+position = Vector2(312, 328)
+rotation = 1.5708
+
+[node name="Block47" parent="." index="41" instance=ExtResource("2_d1tcx")]
+position = Vector2(192, 440)
+
+[node name="Block33" parent="." index="42" instance=ExtResource("2_d1tcx")]
+position = Vector2(192, 408)
+
+[node name="Block35" parent="." index="43" instance=ExtResource("6_j3irl")]
+position = Vector2(216, 408)
+rotation = 1.5708
+
+[node name="Block36" parent="." index="44" instance=ExtResource("2_d1tcx")]
+position = Vector2(224, 392)
+
+[node name="Block37" parent="." index="45" instance=ExtResource("2_d1tcx")]
+position = Vector2(192, 376)
+
+[node name="Block38" parent="." index="46" instance=ExtResource("6_j3irl")]
+position = Vector2(200, 392)
+rotation = 1.5708
+
+[node name="Block39" parent="." index="47" instance=ExtResource("6_j3irl")]
+position = Vector2(216, 376)
+rotation = 1.5708
+
+[node name="Block40" parent="." index="48" instance=ExtResource("2_d1tcx")]
+position = Vector2(224, 360)
+
+[node name="Block41" parent="." index="49" instance=ExtResource("2_d1tcx")]
+position = Vector2(192, 344)
+
+[node name="Block50" parent="." index="50" instance=ExtResource("2_d1tcx")]
+position = Vector2(224, 328)
+
+[node name="Block42" parent="." index="51" instance=ExtResource("6_j3irl")]
+position = Vector2(200, 360)
+rotation = 1.5708
+
+[node name="Block43" parent="." index="52" instance=ExtResource("6_j3irl")]
+position = Vector2(216, 344)
+rotation = 1.5708
+
+[node name="Block49" parent="." index="53" instance=ExtResource("6_j3irl")]
+position = Vector2(200, 328)
+rotation = 1.5708
+
+[node name="Block" parent="." index="54" instance=ExtResource("2_gcdds")]
+position = Vector2(224, 440)
+
+[node name="Block3" parent="." index="55" instance=ExtResource("2_gcdds")]
+position = Vector2(288, 440)

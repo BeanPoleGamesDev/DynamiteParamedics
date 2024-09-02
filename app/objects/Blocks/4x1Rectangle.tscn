@@ -3,26 +3,25 @@
 [ext_resource type="PackedScene" uid="uid://b5iw6y8hrwoph" path="res://app/objects/Blocks/Block.tscn" id="1_hslnc"]
 [ext_resource type="Texture2D" uid="uid://cq22puwltask8" path="res://assets/blocks/rect1x4.png" id="2_72t6p"]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_ytrno"]
-size = Vector2(20, 136)
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_dj2hd"]
+size = Vector2(10, 32)
 
-[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_1i37d"]
-radius = 7.0
-height = 136.0
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_bm326"]
+radius = 3.0
+height = 32.0
 
 [node name="Block" instance=ExtResource("1_hslnc")]
 
 [node name="Sprite2D" type="Sprite2D" parent="." index="0"]
-scale = Vector2(2.125, 2.125)
 texture = ExtResource("2_72t6p")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." index="1"]
-shape = SubResource("RectangleShape2D_ytrno")
+shape = SubResource("RectangleShape2D_dj2hd")
 
 [node name="CollisionShape2D3" type="CollisionShape2D" parent="." index="2"]
-position = Vector2(-10, 0)
-shape = SubResource("CapsuleShape2D_1i37d")
+position = Vector2(-5, 0)
+shape = SubResource("CapsuleShape2D_bm326")
 
 [node name="CollisionShape2D4" type="CollisionShape2D" parent="." index="3"]
-position = Vector2(10, 0)
-shape = SubResource("CapsuleShape2D_1i37d")
+position = Vector2(5, 0)
+shape = SubResource("CapsuleShape2D_bm326")
