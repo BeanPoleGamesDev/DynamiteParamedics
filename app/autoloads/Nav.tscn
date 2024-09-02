@@ -1,10 +1,14 @@
-[gd_scene load_steps=5 format=3 uid="uid://buefo6lkbo07a"]
+[gd_scene load_steps=7 format=3 uid="uid://buefo6lkbo07a"]
 
 [ext_resource type="Script" path="res://app/autoloads/nav.gd" id="1_i2pr6"]
 [ext_resource type="PackedScene" uid="uid://br6wr6v8oulnp" path="res://app/scenes/LevelOne.tscn" id="2_nmbki"]
-[ext_resource type="PackedScene" uid="uid://bgo7w0fyol4cu" path="res://app/scenes/LevelTwo.tscn" id="3_r0bn5"]
-[ext_resource type="PackedScene" uid="uid://b6gndovnhmqgu" path="res://app/scenes/LevelThree.tscn" id="4_0r23r"]
+[ext_resource type="PackedScene" uid="uid://cmk5wfhmp75rn" path="res://app/scenes/LevelTwo.tscn" id="3_r0bn5"]
+[ext_resource type="PackedScene" uid="uid://gix7gmvy4x5r" path="res://app/scenes/LevelThree.tscn" id="4_0r23r"]
+[ext_resource type="PackedScene" uid="uid://b1jqk2wumfs5g" path="res://start_animation.tscn" id="5_fkli4"]
+[ext_resource type="PackedScene" uid="uid://dlpbgetutmd6q" path="res://end_animation.tscn" id="6_fpfwt"]
 
 [node name="Nav" type="Node"]
 script = ExtResource("1_i2pr6")
 views = Array[PackedScene]([ExtResource("2_nmbki"), ExtResource("3_r0bn5"), ExtResource("4_0r23r")])
+cut_scene_start = ExtResource("5_fkli4")
+cut_scene_win = ExtResource("6_fpfwt")
