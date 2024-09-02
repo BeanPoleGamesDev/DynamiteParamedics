@@ -1,5 +1,6 @@
-[gd_scene load_steps=2 format=3 uid="uid://dol605qulc5gl"]
+[gd_scene load_steps=3 format=3 uid="uid://dol605qulc5gl"]
 
+[ext_resource type="FontFile" uid="uid://1opppsr1uvln" path="res://assets/choco_shake/Choco Shake.ttf" id="1_6a1mi"]
 [ext_resource type="Script" path="res://app/objects/restart_btn.gd" id="1_gfufi"]
 
 [node name="CanvasLayer" type="CanvasLayer"]
@@ -19,6 +20,8 @@ theme_override_constants/margin_bottom = 20
 layout_mode = 2
 size_flags_horizontal = 8
 size_flags_vertical = 0
+theme_override_fonts/font = ExtResource("1_6a1mi")
+theme_override_font_sizes/font_size = 30
 text = "Restart"
 script = ExtResource("1_gfufi")
 
