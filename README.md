@@ -19,4 +19,5 @@ You select obsticals to destry and your success / failure depends the order and 
 This is a game submission for the [TriJam 285](https://itch.io/jam/trijam-285).
 The theme was "smash things!"
 
+[you can play the game on itch.io/dynamite-paramedics](https://jacobabarbary.itch.io/dynamite-paramedics)
 
