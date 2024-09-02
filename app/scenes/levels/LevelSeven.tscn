@@ -8,79 +8,80 @@
 
 [node name="LevelBase2" instance=ExtResource("1_ut5s5")]
 texture_filter = 1
+metadata/order = 7
 
 [node name="RigidBody2D" parent="." index="1" instance=ExtResource("2_jtemk")]
-position = Vector2(391, -85)
+position = Vector2(248, -32)
 
 [node name="flag" parent="." index="2" instance=ExtResource("3_x58ro")]
-position = Vector2(408, 782)
+position = Vector2(256, 498)
 
 [node name="Ground" parent="." index="4"]
-position = Vector2(408, 799)
+position = Vector2(256, 504)
 
-[node name="Score" parent="." index="6"]
+[node name="death_boundry" parent="." index="7"]
 metadata/_edit_lock_ = true
 
 [node name="Block" parent="." index="8" instance=ExtResource("4_afwcx")]
-position = Vector2(357, 731)
+position = Vector2(232, 472)
 rotation = 0.785398
 
 [node name="Block2" parent="." index="9" instance=ExtResource("4_afwcx")]
-position = Vector2(459, 731)
+position = Vector2(280, 472)
 rotation = 0.785398
 
 [node name="Block4" parent="." index="10" instance=ExtResource("5_cytdi")]
-position = Vector2(408, 680)
+position = Vector2(256, 448)
 rotation = 0.785398
 
 [node name="Block11" parent="." index="11" instance=ExtResource("5_cytdi")]
-position = Vector2(340, 612)
+position = Vector2(224, 416)
 rotation = 0.785398
 
 [node name="Block14" parent="." index="12" instance=ExtResource("5_cytdi")]
-position = Vector2(272, 680)
+position = Vector2(184, 448)
 rotation = 0.785398
 
 [node name="Block16" parent="." index="13" instance=ExtResource("5_cytdi")]
-position = Vector2(544, 680)
+position = Vector2(328, 448)
 rotation = 0.785398
 
 [node name="Block12" parent="." index="14" instance=ExtResource("5_cytdi")]
-position = Vector2(476, 612)
+position = Vector2(288, 416)
 rotation = 0.785398
 
 [node name="Block9" parent="." index="15" instance=ExtResource("5_cytdi")]
-position = Vector2(306, 731)
+position = Vector2(208, 472)
 rotation = 0.785398
 
 [node name="Block10" parent="." index="16" instance=ExtResource("5_cytdi")]
-position = Vector2(510, 731)
+position = Vector2(304, 472)
 rotation = 0.785398
 
 [node name="Block3" parent="." index="17" instance=ExtResource("4_afwcx")]
-position = Vector2(408, 629)
+position = Vector2(256, 424)
 rotation = 0.785398
 
 [node name="Block13" parent="." index="18" instance=ExtResource("4_afwcx")]
-position = Vector2(272, 629)
+position = Vector2(184, 424)
 rotation = 0.785398
 
 [node name="Block15" parent="." index="19" instance=ExtResource("4_afwcx")]
-position = Vector2(544, 646)
+position = Vector2(320, 432)
 rotation = 0.785398
 
 [node name="Block5" parent="." index="20" instance=ExtResource("4_afwcx")]
-position = Vector2(476, 663)
+position = Vector2(288, 440)
 rotation = 0.785398
 
 [node name="Block6" parent="." index="21" instance=ExtResource("4_afwcx")]
-position = Vector2(340, 663)
+position = Vector2(224, 440)
 rotation = 0.785398
 
 [node name="Block7" parent="." index="22" instance=ExtResource("4_afwcx")]
-position = Vector2(272, 731)
+position = Vector2(184, 472)
 rotation = 0.785398
 
 [node name="Block8" parent="." index="23" instance=ExtResource("4_afwcx")]
-position = Vector2(544, 731)
+position = Vector2(328, 472)
 rotation = 0.785398

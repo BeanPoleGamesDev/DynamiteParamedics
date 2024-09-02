@@ -12,6 +12,7 @@
 
 [node name="LevelBase2" instance=ExtResource("1_lcyb2")]
 texture_filter = 1
+metadata/order = 3
 
 [node name="RigidBody2D" parent="." index="1" instance=ExtResource("2_1qvd3")]
 position = Vector2(256, -384)

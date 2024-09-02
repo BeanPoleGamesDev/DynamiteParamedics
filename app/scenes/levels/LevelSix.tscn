@@ -9,52 +9,53 @@
 
 [node name="LevelBase2" instance=ExtResource("1_k6v2c")]
 texture_filter = 1
+metadata/order = 6
 
 [node name="RigidBody2D" parent="." index="1" instance=ExtResource("2_154s2")]
-position = Vector2(391, -85)
+position = Vector2(248, -24)
 
 [node name="flag" parent="." index="2" instance=ExtResource("3_wkcg0")]
-position = Vector2(408, 782)
+position = Vector2(256, 496)
 
 [node name="Ground" parent="." index="4"]
-position = Vector2(408, 799)
+position = Vector2(256, 504)
 
-[node name="Score" parent="." index="6"]
+[node name="death_boundry" parent="." index="7"]
 metadata/_edit_lock_ = true
 
 [node name="Block12" parent="." index="8" instance=ExtResource("4_s60iy")]
-position = Vector2(408, 510)
+position = Vector2(256, 336)
 rotation = 1.5708
 
 [node name="Block" parent="." index="9" instance=ExtResource("4_vukum")]
-position = Vector2(357, 731)
+position = Vector2(232, 472)
 
 [node name="Block2" parent="." index="10" instance=ExtResource("4_vukum")]
-position = Vector2(629, 731)
+position = Vector2(328, 472)
 
 [node name="Block3" parent="." index="11" instance=ExtResource("4_vukum")]
-position = Vector2(561, 697)
+position = Vector2(312, 440)
 
 [node name="Block4" parent="." index="12" instance=ExtResource("4_vukum")]
-position = Vector2(323, 663)
+position = Vector2(232, 424)
 
 [node name="Block5" parent="." index="13" instance=ExtResource("4_vukum")]
-position = Vector2(255, 697)
+position = Vector2(200, 440)
 
 [node name="Block6" parent="." index="14" instance=ExtResource("4_vukum")]
-position = Vector2(187, 731)
+position = Vector2(184, 472)
 
 [node name="Block7" parent="." index="15" instance=ExtResource("4_vukum")]
-position = Vector2(459, 731)
+position = Vector2(280, 472)
 
 [node name="Block8" parent="." index="16" instance=ExtResource("4_vukum")]
-position = Vector2(493, 663)
+position = Vector2(280, 424)
 
 [node name="Block9" parent="." index="17" instance=ExtResource("5_s7jo2")]
-position = Vector2(408, 680)
+position = Vector2(256, 448)
 
 [node name="Block10" parent="." index="18" instance=ExtResource("5_s7jo2")]
-position = Vector2(374, 612)
+position = Vector2(240, 384)
 
 [node name="Block11" parent="." index="19" instance=ExtResource("5_s7jo2")]
-position = Vector2(442, 612)
+position = Vector2(272, 384)

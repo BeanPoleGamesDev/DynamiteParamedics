@@ -1,0 +1,739 @@
+[gd_scene load_steps=5 format=3 uid="uid://uvrm1tinifm8"]
+
+[ext_resource type="PackedScene" uid="uid://dics4vpm8vwke" path="res://app/scenes/LevelBase.tscn" id="1_co4fe"]
+[ext_resource type="PackedScene" uid="uid://um1mj5quqvhy" path="res://app/objects/Ambulance.tscn" id="2_751qp"]
+[ext_resource type="PackedScene" uid="uid://dlc1kon5iqevb" path="res://app/objects/flag.tscn" id="3_iigo6"]
+[ext_resource type="PackedScene" uid="uid://ccevlx5p0brdm" path="res://app/objects/Blocks/Square.tscn" id="4_bya37"]
+
+[node name="LevelBase2" instance=ExtResource("1_co4fe")]
+texture_filter = 1
+metadata/order = 4
+
+[node name="RigidBody2D" parent="." index="1" instance=ExtResource("2_751qp")]
+position = Vector2(248, -64)
+
+[node name="flag" parent="." index="2" instance=ExtResource("3_iigo6")]
+position = Vector2(264, 496)
+
+[node name="Ground" parent="." index="4"]
+position = Vector2(256, 504)
+
+[node name="Block2" parent="." index="8" instance=ExtResource("4_bya37")]
+position = Vector2(104, 472)
+
+[node name="Block4" parent="." index="9" instance=ExtResource("4_bya37")]
+position = Vector2(104, 440)
+
+[node name="Block6" parent="." index="10" instance=ExtResource("4_bya37")]
+position = Vector2(104, 456)
+
+[node name="Block7" parent="." index="11" instance=ExtResource("4_bya37")]
+position = Vector2(104, 488)
+
+[node name="Block5" parent="." index="12" instance=ExtResource("4_bya37")]
+position = Vector2(104, 424)
+
+[node name="Block13" parent="." index="13" instance=ExtResource("4_bya37")]
+position = Vector2(120, 488)
+
+[node name="Block14" parent="." index="14" instance=ExtResource("4_bya37")]
+position = Vector2(120, 472)
+
+[node name="Block15" parent="." index="15" instance=ExtResource("4_bya37")]
+position = Vector2(120, 456)
+
+[node name="Block16" parent="." index="16" instance=ExtResource("4_bya37")]
+position = Vector2(120, 440)
+
+[node name="Block17" parent="." index="17" instance=ExtResource("4_bya37")]
+position = Vector2(120, 424)
+
+[node name="Block25" parent="." index="18" instance=ExtResource("4_bya37")]
+position = Vector2(136, 488)
+
+[node name="Block26" parent="." index="19" instance=ExtResource("4_bya37")]
+position = Vector2(136, 472)
+
+[node name="Block27" parent="." index="20" instance=ExtResource("4_bya37")]
+position = Vector2(136, 456)
+
+[node name="Block28" parent="." index="21" instance=ExtResource("4_bya37")]
+position = Vector2(136, 440)
+
+[node name="Block29" parent="." index="22" instance=ExtResource("4_bya37")]
+position = Vector2(136, 424)
+
+[node name="Block37" parent="." index="23" instance=ExtResource("4_bya37")]
+position = Vector2(152, 488)
+
+[node name="Block38" parent="." index="24" instance=ExtResource("4_bya37")]
+position = Vector2(152, 472)
+
+[node name="Block39" parent="." index="25" instance=ExtResource("4_bya37")]
+position = Vector2(152, 456)
+
+[node name="Block40" parent="." index="26" instance=ExtResource("4_bya37")]
+position = Vector2(152, 440)
+
+[node name="Block41" parent="." index="27" instance=ExtResource("4_bya37")]
+position = Vector2(152, 424)
+
+[node name="Block49" parent="." index="28" instance=ExtResource("4_bya37")]
+position = Vector2(168, 488)
+
+[node name="Block50" parent="." index="29" instance=ExtResource("4_bya37")]
+position = Vector2(168, 472)
+
+[node name="Block51" parent="." index="30" instance=ExtResource("4_bya37")]
+position = Vector2(168, 456)
+
+[node name="Block52" parent="." index="31" instance=ExtResource("4_bya37")]
+position = Vector2(168, 440)
+
+[node name="Block53" parent="." index="32" instance=ExtResource("4_bya37")]
+position = Vector2(168, 424)
+
+[node name="Block61" parent="." index="33" instance=ExtResource("4_bya37")]
+position = Vector2(184, 488)
+
+[node name="Block62" parent="." index="34" instance=ExtResource("4_bya37")]
+position = Vector2(184, 472)
+
+[node name="Block63" parent="." index="35" instance=ExtResource("4_bya37")]
+position = Vector2(184, 456)
+
+[node name="Block64" parent="." index="36" instance=ExtResource("4_bya37")]
+position = Vector2(184, 440)
+
+[node name="Block65" parent="." index="37" instance=ExtResource("4_bya37")]
+position = Vector2(184, 424)
+
+[node name="Block73" parent="." index="38" instance=ExtResource("4_bya37")]
+position = Vector2(200, 488)
+
+[node name="Block74" parent="." index="39" instance=ExtResource("4_bya37")]
+position = Vector2(200, 472)
+
+[node name="Block75" parent="." index="40" instance=ExtResource("4_bya37")]
+position = Vector2(200, 456)
+
+[node name="Block76" parent="." index="41" instance=ExtResource("4_bya37")]
+position = Vector2(200, 440)
+
+[node name="Block77" parent="." index="42" instance=ExtResource("4_bya37")]
+position = Vector2(200, 424)
+
+[node name="Block85" parent="." index="43" instance=ExtResource("4_bya37")]
+position = Vector2(216, 488)
+
+[node name="Block86" parent="." index="44" instance=ExtResource("4_bya37")]
+position = Vector2(216, 472)
+
+[node name="Block87" parent="." index="45" instance=ExtResource("4_bya37")]
+position = Vector2(216, 456)
+
+[node name="Block88" parent="." index="46" instance=ExtResource("4_bya37")]
+position = Vector2(216, 440)
+
+[node name="Block89" parent="." index="47" instance=ExtResource("4_bya37")]
+position = Vector2(216, 424)
+
+[node name="Block97" parent="." index="48" instance=ExtResource("4_bya37")]
+position = Vector2(232, 488)
+
+[node name="Block98" parent="." index="49" instance=ExtResource("4_bya37")]
+position = Vector2(232, 472)
+
+[node name="Block99" parent="." index="50" instance=ExtResource("4_bya37")]
+position = Vector2(232, 456)
+
+[node name="Block100" parent="." index="51" instance=ExtResource("4_bya37")]
+position = Vector2(232, 440)
+
+[node name="Block101" parent="." index="52" instance=ExtResource("4_bya37")]
+position = Vector2(232, 424)
+
+[node name="Block109" parent="." index="53" instance=ExtResource("4_bya37")]
+position = Vector2(248, 488)
+
+[node name="Block110" parent="." index="54" instance=ExtResource("4_bya37")]
+position = Vector2(248, 472)
+
+[node name="Block111" parent="." index="55" instance=ExtResource("4_bya37")]
+position = Vector2(248, 456)
+
+[node name="Block112" parent="." index="56" instance=ExtResource("4_bya37")]
+position = Vector2(248, 440)
+
+[node name="Block113" parent="." index="57" instance=ExtResource("4_bya37")]
+position = Vector2(248, 424)
+
+[node name="Block121" parent="." index="58" instance=ExtResource("4_bya37")]
+position = Vector2(264, 488)
+
+[node name="Block122" parent="." index="59" instance=ExtResource("4_bya37")]
+position = Vector2(264, 472)
+
+[node name="Block124" parent="." index="60" instance=ExtResource("4_bya37")]
+position = Vector2(264, 440)
+
+[node name="Block125" parent="." index="61" instance=ExtResource("4_bya37")]
+position = Vector2(264, 424)
+
+[node name="Block128" parent="." index="62" instance=ExtResource("4_bya37")]
+position = Vector2(264, 456)
+
+[node name="Block133" parent="." index="63" instance=ExtResource("4_bya37")]
+position = Vector2(280, 488)
+
+[node name="Block134" parent="." index="64" instance=ExtResource("4_bya37")]
+position = Vector2(280, 472)
+
+[node name="Block135" parent="." index="65" instance=ExtResource("4_bya37")]
+position = Vector2(280, 456)
+
+[node name="Block136" parent="." index="66" instance=ExtResource("4_bya37")]
+position = Vector2(280, 440)
+
+[node name="Block137" parent="." index="67" instance=ExtResource("4_bya37")]
+position = Vector2(280, 424)
+
+[node name="Block145" parent="." index="68" instance=ExtResource("4_bya37")]
+position = Vector2(296, 488)
+
+[node name="Block146" parent="." index="69" instance=ExtResource("4_bya37")]
+position = Vector2(296, 472)
+
+[node name="Block147" parent="." index="70" instance=ExtResource("4_bya37")]
+position = Vector2(296, 456)
+
+[node name="Block148" parent="." index="71" instance=ExtResource("4_bya37")]
+position = Vector2(296, 440)
+
+[node name="Block149" parent="." index="72" instance=ExtResource("4_bya37")]
+position = Vector2(296, 424)
+
+[node name="Block157" parent="." index="73" instance=ExtResource("4_bya37")]
+position = Vector2(312, 488)
+
+[node name="Block158" parent="." index="74" instance=ExtResource("4_bya37")]
+position = Vector2(312, 472)
+
+[node name="Block159" parent="." index="75" instance=ExtResource("4_bya37")]
+position = Vector2(312, 456)
+
+[node name="Block160" parent="." index="76" instance=ExtResource("4_bya37")]
+position = Vector2(312, 440)
+
+[node name="Block161" parent="." index="77" instance=ExtResource("4_bya37")]
+position = Vector2(312, 424)
+
+[node name="Block169" parent="." index="78" instance=ExtResource("4_bya37")]
+position = Vector2(328, 488)
+
+[node name="Block170" parent="." index="79" instance=ExtResource("4_bya37")]
+position = Vector2(328, 472)
+
+[node name="Block171" parent="." index="80" instance=ExtResource("4_bya37")]
+position = Vector2(328, 456)
+
+[node name="Block172" parent="." index="81" instance=ExtResource("4_bya37")]
+position = Vector2(328, 440)
+
+[node name="Block173" parent="." index="82" instance=ExtResource("4_bya37")]
+position = Vector2(328, 424)
+
+[node name="Block181" parent="." index="83" instance=ExtResource("4_bya37")]
+position = Vector2(344, 488)
+
+[node name="Block182" parent="." index="84" instance=ExtResource("4_bya37")]
+position = Vector2(344, 472)
+
+[node name="Block183" parent="." index="85" instance=ExtResource("4_bya37")]
+position = Vector2(344, 456)
+
+[node name="Block184" parent="." index="86" instance=ExtResource("4_bya37")]
+position = Vector2(344, 440)
+
+[node name="Block185" parent="." index="87" instance=ExtResource("4_bya37")]
+position = Vector2(344, 424)
+
+[node name="Block193" parent="." index="88" instance=ExtResource("4_bya37")]
+position = Vector2(360, 488)
+
+[node name="Block194" parent="." index="89" instance=ExtResource("4_bya37")]
+position = Vector2(360, 472)
+
+[node name="Block195" parent="." index="90" instance=ExtResource("4_bya37")]
+position = Vector2(360, 456)
+
+[node name="Block196" parent="." index="91" instance=ExtResource("4_bya37")]
+position = Vector2(360, 440)
+
+[node name="Block197" parent="." index="92" instance=ExtResource("4_bya37")]
+position = Vector2(360, 424)
+
+[node name="Block205" parent="." index="93" instance=ExtResource("4_bya37")]
+position = Vector2(376, 488)
+
+[node name="Block206" parent="." index="94" instance=ExtResource("4_bya37")]
+position = Vector2(376, 472)
+
+[node name="Block207" parent="." index="95" instance=ExtResource("4_bya37")]
+position = Vector2(376, 456)
+
+[node name="Block208" parent="." index="96" instance=ExtResource("4_bya37")]
+position = Vector2(376, 440)
+
+[node name="Block209" parent="." index="97" instance=ExtResource("4_bya37")]
+position = Vector2(376, 424)
+
+[node name="Block217" parent="." index="98" instance=ExtResource("4_bya37")]
+position = Vector2(392, 488)
+
+[node name="Block218" parent="." index="99" instance=ExtResource("4_bya37")]
+position = Vector2(392, 472)
+
+[node name="Block219" parent="." index="100" instance=ExtResource("4_bya37")]
+position = Vector2(392, 456)
+
+[node name="Block220" parent="." index="101" instance=ExtResource("4_bya37")]
+position = Vector2(392, 440)
+
+[node name="Block221" parent="." index="102" instance=ExtResource("4_bya37")]
+position = Vector2(392, 424)
+
+[node name="Block229" parent="." index="103" instance=ExtResource("4_bya37")]
+position = Vector2(408, 488)
+
+[node name="Block230" parent="." index="104" instance=ExtResource("4_bya37")]
+position = Vector2(408, 472)
+
+[node name="Block231" parent="." index="105" instance=ExtResource("4_bya37")]
+position = Vector2(408, 456)
+
+[node name="Block232" parent="." index="106" instance=ExtResource("4_bya37")]
+position = Vector2(408, 440)
+
+[node name="Block233" parent="." index="107" instance=ExtResource("4_bya37")]
+position = Vector2(408, 424)
+
+[node name="Block3" parent="." index="108" instance=ExtResource("4_bya37")]
+position = Vector2(104, 392)
+
+[node name="Block9" parent="." index="109" instance=ExtResource("4_bya37")]
+position = Vector2(104, 376)
+
+[node name="Block10" parent="." index="110" instance=ExtResource("4_bya37")]
+position = Vector2(104, 408)
+
+[node name="Block18" parent="." index="111" instance=ExtResource("4_bya37")]
+position = Vector2(120, 408)
+
+[node name="Block19" parent="." index="112" instance=ExtResource("4_bya37")]
+position = Vector2(120, 392)
+
+[node name="Block20" parent="." index="113" instance=ExtResource("4_bya37")]
+position = Vector2(120, 376)
+
+[node name="Block30" parent="." index="114" instance=ExtResource("4_bya37")]
+position = Vector2(136, 408)
+
+[node name="Block31" parent="." index="115" instance=ExtResource("4_bya37")]
+position = Vector2(136, 392)
+
+[node name="Block32" parent="." index="116" instance=ExtResource("4_bya37")]
+position = Vector2(136, 376)
+
+[node name="Block42" parent="." index="117" instance=ExtResource("4_bya37")]
+position = Vector2(152, 408)
+
+[node name="Block43" parent="." index="118" instance=ExtResource("4_bya37")]
+position = Vector2(152, 392)
+
+[node name="Block44" parent="." index="119" instance=ExtResource("4_bya37")]
+position = Vector2(152, 376)
+
+[node name="Block54" parent="." index="120" instance=ExtResource("4_bya37")]
+position = Vector2(168, 408)
+
+[node name="Block55" parent="." index="121" instance=ExtResource("4_bya37")]
+position = Vector2(168, 392)
+
+[node name="Block56" parent="." index="122" instance=ExtResource("4_bya37")]
+position = Vector2(168, 376)
+
+[node name="Block66" parent="." index="123" instance=ExtResource("4_bya37")]
+position = Vector2(184, 408)
+
+[node name="Block67" parent="." index="124" instance=ExtResource("4_bya37")]
+position = Vector2(184, 392)
+
+[node name="Block68" parent="." index="125" instance=ExtResource("4_bya37")]
+position = Vector2(184, 376)
+
+[node name="Block78" parent="." index="126" instance=ExtResource("4_bya37")]
+position = Vector2(200, 408)
+
+[node name="Block79" parent="." index="127" instance=ExtResource("4_bya37")]
+position = Vector2(200, 392)
+
+[node name="Block80" parent="." index="128" instance=ExtResource("4_bya37")]
+position = Vector2(200, 376)
+
+[node name="Block90" parent="." index="129" instance=ExtResource("4_bya37")]
+position = Vector2(216, 408)
+
+[node name="Block91" parent="." index="130" instance=ExtResource("4_bya37")]
+position = Vector2(216, 392)
+
+[node name="Block92" parent="." index="131" instance=ExtResource("4_bya37")]
+position = Vector2(216, 376)
+
+[node name="Block102" parent="." index="132" instance=ExtResource("4_bya37")]
+position = Vector2(232, 408)
+
+[node name="Block103" parent="." index="133" instance=ExtResource("4_bya37")]
+position = Vector2(232, 392)
+
+[node name="Block104" parent="." index="134" instance=ExtResource("4_bya37")]
+position = Vector2(232, 376)
+
+[node name="Block114" parent="." index="135" instance=ExtResource("4_bya37")]
+position = Vector2(248, 408)
+
+[node name="Block115" parent="." index="136" instance=ExtResource("4_bya37")]
+position = Vector2(248, 392)
+
+[node name="Block116" parent="." index="137" instance=ExtResource("4_bya37")]
+position = Vector2(248, 376)
+
+[node name="Block123" parent="." index="138" instance=ExtResource("4_bya37")]
+position = Vector2(264, 408)
+
+[node name="Block126" parent="." index="139" instance=ExtResource("4_bya37")]
+position = Vector2(264, 392)
+
+[node name="Block130" parent="." index="140" instance=ExtResource("4_bya37")]
+position = Vector2(264, 376)
+
+[node name="Block138" parent="." index="141" instance=ExtResource("4_bya37")]
+position = Vector2(280, 408)
+
+[node name="Block139" parent="." index="142" instance=ExtResource("4_bya37")]
+position = Vector2(280, 392)
+
+[node name="Block140" parent="." index="143" instance=ExtResource("4_bya37")]
+position = Vector2(280, 376)
+
+[node name="Block150" parent="." index="144" instance=ExtResource("4_bya37")]
+position = Vector2(296, 408)
+
+[node name="Block151" parent="." index="145" instance=ExtResource("4_bya37")]
+position = Vector2(296, 392)
+
+[node name="Block152" parent="." index="146" instance=ExtResource("4_bya37")]
+position = Vector2(296, 376)
+
+[node name="Block162" parent="." index="147" instance=ExtResource("4_bya37")]
+position = Vector2(312, 408)
+
+[node name="Block163" parent="." index="148" instance=ExtResource("4_bya37")]
+position = Vector2(312, 392)
+
+[node name="Block164" parent="." index="149" instance=ExtResource("4_bya37")]
+position = Vector2(312, 376)
+
+[node name="Block174" parent="." index="150" instance=ExtResource("4_bya37")]
+position = Vector2(328, 408)
+
+[node name="Block175" parent="." index="151" instance=ExtResource("4_bya37")]
+position = Vector2(328, 392)
+
+[node name="Block176" parent="." index="152" instance=ExtResource("4_bya37")]
+position = Vector2(328, 376)
+
+[node name="Block186" parent="." index="153" instance=ExtResource("4_bya37")]
+position = Vector2(344, 408)
+
+[node name="Block187" parent="." index="154" instance=ExtResource("4_bya37")]
+position = Vector2(344, 392)
+
+[node name="Block188" parent="." index="155" instance=ExtResource("4_bya37")]
+position = Vector2(344, 376)
+
+[node name="Block198" parent="." index="156" instance=ExtResource("4_bya37")]
+position = Vector2(360, 408)
+
+[node name="Block199" parent="." index="157" instance=ExtResource("4_bya37")]
+position = Vector2(360, 392)
+
+[node name="Block200" parent="." index="158" instance=ExtResource("4_bya37")]
+position = Vector2(360, 376)
+
+[node name="Block210" parent="." index="159" instance=ExtResource("4_bya37")]
+position = Vector2(376, 408)
+
+[node name="Block211" parent="." index="160" instance=ExtResource("4_bya37")]
+position = Vector2(376, 392)
+
+[node name="Block212" parent="." index="161" instance=ExtResource("4_bya37")]
+position = Vector2(376, 376)
+
+[node name="Block222" parent="." index="162" instance=ExtResource("4_bya37")]
+position = Vector2(392, 408)
+
+[node name="Block223" parent="." index="163" instance=ExtResource("4_bya37")]
+position = Vector2(392, 392)
+
+[node name="Block224" parent="." index="164" instance=ExtResource("4_bya37")]
+position = Vector2(392, 376)
+
+[node name="Block234" parent="." index="165" instance=ExtResource("4_bya37")]
+position = Vector2(408, 408)
+
+[node name="Block235" parent="." index="166" instance=ExtResource("4_bya37")]
+position = Vector2(408, 392)
+
+[node name="Block236" parent="." index="167" instance=ExtResource("4_bya37")]
+position = Vector2(408, 376)
+
+[node name="Block8" parent="." index="168" instance=ExtResource("4_bya37")]
+position = Vector2(104, 344)
+
+[node name="Block11" parent="." index="169" instance=ExtResource("4_bya37")]
+position = Vector2(104, 312)
+
+[node name="Block12" parent="." index="170" instance=ExtResource("4_bya37")]
+position = Vector2(104, 328)
+
+[node name="Block21" parent="." index="171" instance=ExtResource("4_bya37")]
+position = Vector2(104, 360)
+
+[node name="Block23" parent="." index="172" instance=ExtResource("4_bya37")]
+position = Vector2(120, 360)
+
+[node name="Block24" parent="." index="173" instance=ExtResource("4_bya37")]
+position = Vector2(120, 344)
+
+[node name="Block33" parent="." index="174" instance=ExtResource("4_bya37")]
+position = Vector2(120, 328)
+
+[node name="Block34" parent="." index="175" instance=ExtResource("4_bya37")]
+position = Vector2(120, 312)
+
+[node name="Block36" parent="." index="176" instance=ExtResource("4_bya37")]
+position = Vector2(136, 360)
+
+[node name="Block45" parent="." index="177" instance=ExtResource("4_bya37")]
+position = Vector2(136, 344)
+
+[node name="Block46" parent="." index="178" instance=ExtResource("4_bya37")]
+position = Vector2(136, 328)
+
+[node name="Block47" parent="." index="179" instance=ExtResource("4_bya37")]
+position = Vector2(136, 312)
+
+[node name="Block57" parent="." index="180" instance=ExtResource("4_bya37")]
+position = Vector2(152, 360)
+
+[node name="Block58" parent="." index="181" instance=ExtResource("4_bya37")]
+position = Vector2(152, 344)
+
+[node name="Block59" parent="." index="182" instance=ExtResource("4_bya37")]
+position = Vector2(152, 328)
+
+[node name="Block60" parent="." index="183" instance=ExtResource("4_bya37")]
+position = Vector2(152, 312)
+
+[node name="Block70" parent="." index="184" instance=ExtResource("4_bya37")]
+position = Vector2(168, 360)
+
+[node name="Block71" parent="." index="185" instance=ExtResource("4_bya37")]
+position = Vector2(168, 344)
+
+[node name="Block72" parent="." index="186" instance=ExtResource("4_bya37")]
+position = Vector2(168, 328)
+
+[node name="Block81" parent="." index="187" instance=ExtResource("4_bya37")]
+position = Vector2(168, 312)
+
+[node name="Block83" parent="." index="188" instance=ExtResource("4_bya37")]
+position = Vector2(184, 360)
+
+[node name="Block84" parent="." index="189" instance=ExtResource("4_bya37")]
+position = Vector2(184, 344)
+
+[node name="Block93" parent="." index="190" instance=ExtResource("4_bya37")]
+position = Vector2(184, 328)
+
+[node name="Block94" parent="." index="191" instance=ExtResource("4_bya37")]
+position = Vector2(184, 312)
+
+[node name="Block96" parent="." index="192" instance=ExtResource("4_bya37")]
+position = Vector2(200, 360)
+
+[node name="Block105" parent="." index="193" instance=ExtResource("4_bya37")]
+position = Vector2(200, 344)
+
+[node name="Block106" parent="." index="194" instance=ExtResource("4_bya37")]
+position = Vector2(200, 328)
+
+[node name="Block107" parent="." index="195" instance=ExtResource("4_bya37")]
+position = Vector2(200, 312)
+
+[node name="Block117" parent="." index="196" instance=ExtResource("4_bya37")]
+position = Vector2(216, 360)
+
+[node name="Block118" parent="." index="197" instance=ExtResource("4_bya37")]
+position = Vector2(216, 344)
+
+[node name="Block119" parent="." index="198" instance=ExtResource("4_bya37")]
+position = Vector2(216, 328)
+
+[node name="Block120" parent="." index="199" instance=ExtResource("4_bya37")]
+position = Vector2(216, 312)
+
+[node name="Block129" parent="." index="200" instance=ExtResource("4_bya37")]
+position = Vector2(232, 360)
+
+[node name="Block131" parent="." index="201" instance=ExtResource("4_bya37")]
+position = Vector2(232, 344)
+
+[node name="Block132" parent="." index="202" instance=ExtResource("4_bya37")]
+position = Vector2(232, 328)
+
+[node name="Block141" parent="." index="203" instance=ExtResource("4_bya37")]
+position = Vector2(232, 312)
+
+[node name="Block143" parent="." index="204" instance=ExtResource("4_bya37")]
+position = Vector2(248, 360)
+
+[node name="Block144" parent="." index="205" instance=ExtResource("4_bya37")]
+position = Vector2(248, 344)
+
+[node name="Block153" parent="." index="206" instance=ExtResource("4_bya37")]
+position = Vector2(248, 328)
+
+[node name="Block154" parent="." index="207" instance=ExtResource("4_bya37")]
+position = Vector2(248, 312)
+
+[node name="Block156" parent="." index="208" instance=ExtResource("4_bya37")]
+position = Vector2(264, 360)
+
+[node name="Block165" parent="." index="209" instance=ExtResource("4_bya37")]
+position = Vector2(264, 344)
+
+[node name="Block166" parent="." index="210" instance=ExtResource("4_bya37")]
+position = Vector2(264, 312)
+
+[node name="Block168" parent="." index="211" instance=ExtResource("4_bya37")]
+position = Vector2(264, 328)
+
+[node name="Block177" parent="." index="212" instance=ExtResource("4_bya37")]
+position = Vector2(280, 360)
+
+[node name="Block178" parent="." index="213" instance=ExtResource("4_bya37")]
+position = Vector2(280, 344)
+
+[node name="Block179" parent="." index="214" instance=ExtResource("4_bya37")]
+position = Vector2(280, 328)
+
+[node name="Block180" parent="." index="215" instance=ExtResource("4_bya37")]
+position = Vector2(280, 312)
+
+[node name="Block190" parent="." index="216" instance=ExtResource("4_bya37")]
+position = Vector2(296, 360)
+
+[node name="Block191" parent="." index="217" instance=ExtResource("4_bya37")]
+position = Vector2(296, 344)
+
+[node name="Block192" parent="." index="218" instance=ExtResource("4_bya37")]
+position = Vector2(296, 328)
+
+[node name="Block201" parent="." index="219" instance=ExtResource("4_bya37")]
+position = Vector2(296, 312)
+
+[node name="Block203" parent="." index="220" instance=ExtResource("4_bya37")]
+position = Vector2(312, 360)
+
+[node name="Block204" parent="." index="221" instance=ExtResource("4_bya37")]
+position = Vector2(312, 344)
+
+[node name="Block213" parent="." index="222" instance=ExtResource("4_bya37")]
+position = Vector2(312, 328)
+
+[node name="Block214" parent="." index="223" instance=ExtResource("4_bya37")]
+position = Vector2(312, 312)
+
+[node name="Block216" parent="." index="224" instance=ExtResource("4_bya37")]
+position = Vector2(328, 360)
+
+[node name="Block225" parent="." index="225" instance=ExtResource("4_bya37")]
+position = Vector2(328, 344)
+
+[node name="Block226" parent="." index="226" instance=ExtResource("4_bya37")]
+position = Vector2(328, 328)
+
+[node name="Block227" parent="." index="227" instance=ExtResource("4_bya37")]
+position = Vector2(328, 312)
+
+[node name="Block237" parent="." index="228" instance=ExtResource("4_bya37")]
+position = Vector2(344, 360)
+
+[node name="Block238" parent="." index="229" instance=ExtResource("4_bya37")]
+position = Vector2(344, 344)
+
+[node name="Block239" parent="." index="230" instance=ExtResource("4_bya37")]
+position = Vector2(344, 328)
+
+[node name="Block240" parent="." index="231" instance=ExtResource("4_bya37")]
+position = Vector2(344, 312)
+
+[node name="Block242" parent="." index="232" instance=ExtResource("4_bya37")]
+position = Vector2(360, 360)
+
+[node name="Block243" parent="." index="233" instance=ExtResource("4_bya37")]
+position = Vector2(360, 344)
+
+[node name="Block244" parent="." index="234" instance=ExtResource("4_bya37")]
+position = Vector2(360, 328)
+
+[node name="Block245" parent="." index="235" instance=ExtResource("4_bya37")]
+position = Vector2(360, 312)
+
+[node name="Block247" parent="." index="236" instance=ExtResource("4_bya37")]
+position = Vector2(376, 360)
+
+[node name="Block248" parent="." index="237" instance=ExtResource("4_bya37")]
+position = Vector2(376, 344)
+
+[node name="Block249" parent="." index="238" instance=ExtResource("4_bya37")]
+position = Vector2(376, 328)
+
+[node name="Block250" parent="." index="239" instance=ExtResource("4_bya37")]
+position = Vector2(376, 312)
+
+[node name="Block252" parent="." index="240" instance=ExtResource("4_bya37")]
+position = Vector2(392, 360)
+
+[node name="Block253" parent="." index="241" instance=ExtResource("4_bya37")]
+position = Vector2(392, 344)
+
+[node name="Block254" parent="." index="242" instance=ExtResource("4_bya37")]
+position = Vector2(392, 328)
+
+[node name="Block255" parent="." index="243" instance=ExtResource("4_bya37")]
+position = Vector2(392, 312)
+
+[node name="Block257" parent="." index="244" instance=ExtResource("4_bya37")]
+position = Vector2(408, 360)
+
+[node name="Block258" parent="." index="245" instance=ExtResource("4_bya37")]
+position = Vector2(408, 344)
+
+[node name="Block259" parent="." index="246" instance=ExtResource("4_bya37")]
+position = Vector2(408, 328)
+
+[node name="Block260" parent="." index="247" instance=ExtResource("4_bya37")]
+position = Vector2(408, 312)

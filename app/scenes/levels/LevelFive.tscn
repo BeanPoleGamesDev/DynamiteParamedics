@@ -1,0 +1,95 @@
+[gd_scene load_steps=6 format=3 uid="uid://gyanijggqed0"]
+
+[ext_resource type="PackedScene" uid="uid://dics4vpm8vwke" path="res://app/scenes/LevelBase.tscn" id="1_0x6dy"]
+[ext_resource type="PackedScene" uid="uid://um1mj5quqvhy" path="res://app/objects/Ambulance.tscn" id="2_aw8a6"]
+[ext_resource type="PackedScene" uid="uid://dlc1kon5iqevb" path="res://app/objects/flag.tscn" id="3_rkf62"]
+[ext_resource type="PackedScene" uid="uid://ka3giuyj5gmc" path="res://app/objects/Blocks/4x3HShape.tscn" id="4_nh77e"]
+[ext_resource type="PackedScene" uid="uid://dlp201hrn1dfd" path="res://app/objects/Blocks/2x2Circle.tscn" id="5_3ldqd"]
+
+[node name="LevelBase2" instance=ExtResource("1_0x6dy")]
+texture_filter = 1
+metadata/order = 5
+
+[node name="RigidBody2D" parent="." index="1" instance=ExtResource("2_aw8a6")]
+position = Vector2(248, -32)
+
+[node name="flag" parent="." index="2" instance=ExtResource("3_rkf62")]
+position = Vector2(256, 496)
+
+[node name="Ground" parent="." index="4"]
+position = Vector2(256, 504)
+
+[node name="death_boundry" parent="." index="7"]
+position = Vector2(256, 576)
+
+[node name="Block" parent="." index="8" instance=ExtResource("4_nh77e")]
+position = Vector2(224, 472)
+
+[node name="Block2" parent="." index="9" instance=ExtResource("4_nh77e")]
+position = Vector2(288, 472)
+
+[node name="Block3" parent="." index="10" instance=ExtResource("4_nh77e")]
+position = Vector2(352, 472)
+
+[node name="Block4" parent="." index="11" instance=ExtResource("4_nh77e")]
+position = Vector2(160, 472)
+
+[node name="Block5" parent="." index="12" instance=ExtResource("4_nh77e")]
+position = Vector2(160, 424)
+
+[node name="Block6" parent="." index="13" instance=ExtResource("4_nh77e")]
+position = Vector2(224, 424)
+
+[node name="Block7" parent="." index="14" instance=ExtResource("4_nh77e")]
+position = Vector2(288, 424)
+
+[node name="Block8" parent="." index="15" instance=ExtResource("4_nh77e")]
+position = Vector2(352, 424)
+
+[node name="Block9" parent="." index="16" instance=ExtResource("4_nh77e")]
+position = Vector2(352, 376)
+
+[node name="Block10" parent="." index="17" instance=ExtResource("4_nh77e")]
+position = Vector2(288, 376)
+
+[node name="Block13" parent="." index="18" instance=ExtResource("5_3ldqd")]
+position = Vector2(160, 400)
+
+[node name="Block14" parent="." index="19" instance=ExtResource("5_3ldqd")]
+position = Vector2(160, 448)
+
+[node name="Block15" parent="." index="20" instance=ExtResource("5_3ldqd")]
+position = Vector2(224, 448)
+
+[node name="Block16" parent="." index="21" instance=ExtResource("5_3ldqd")]
+position = Vector2(224, 400)
+
+[node name="Block17" parent="." index="22" instance=ExtResource("5_3ldqd")]
+position = Vector2(288, 400)
+
+[node name="Block18" parent="." index="23" instance=ExtResource("5_3ldqd")]
+position = Vector2(288, 448)
+
+[node name="Block19" parent="." index="24" instance=ExtResource("5_3ldqd")]
+position = Vector2(352, 400)
+
+[node name="Block20" parent="." index="25" instance=ExtResource("5_3ldqd")]
+position = Vector2(160, 352)
+
+[node name="Block21" parent="." index="26" instance=ExtResource("5_3ldqd")]
+position = Vector2(224, 352)
+
+[node name="Block22" parent="." index="27" instance=ExtResource("5_3ldqd")]
+position = Vector2(288, 352)
+
+[node name="Block23" parent="." index="28" instance=ExtResource("5_3ldqd")]
+position = Vector2(352, 352)
+
+[node name="Block24" parent="." index="29" instance=ExtResource("5_3ldqd")]
+position = Vector2(352, 448)
+
+[node name="Block11" parent="." index="30" instance=ExtResource("4_nh77e")]
+position = Vector2(160, 376)
+
+[node name="Block12" parent="." index="31" instance=ExtResource("4_nh77e")]
+position = Vector2(224, 376)

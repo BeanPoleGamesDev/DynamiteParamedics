@@ -7,39 +7,40 @@
 
 [node name="LevelBase2" instance=ExtResource("1_10gpk")]
 texture_filter = 1
+metadata/order = 8
 
 [node name="RigidBody2D" parent="." index="1" instance=ExtResource("2_y8y5v")]
-position = Vector2(391, -85)
+position = Vector2(248, -72)
 
 [node name="flag" parent="." index="2" instance=ExtResource("3_h1h0p")]
-position = Vector2(408, 782)
+position = Vector2(256, 496)
 
 [node name="Ground" parent="." index="4"]
-position = Vector2(408, 799)
+position = Vector2(256, 504)
 
-[node name="Score" parent="." index="6"]
+[node name="death_boundry" parent="." index="7"]
 metadata/_edit_lock_ = true
 
 [node name="Block4" parent="." index="8" instance=ExtResource("4_eyxy6")]
-position = Vector2(340, 748)
+position = Vector2(224, 476)
 
 [node name="Block5" parent="." index="9" instance=ExtResource("4_eyxy6")]
-position = Vector2(476, 748)
+position = Vector2(288, 476)
 
 [node name="Block6" parent="." index="10" instance=ExtResource("4_eyxy6")]
-position = Vector2(476, 680)
+position = Vector2(288, 440)
 
 [node name="Block7" parent="." index="11" instance=ExtResource("4_eyxy6")]
-position = Vector2(340, 680)
+position = Vector2(224, 440)
 
 [node name="Block8" parent="." index="12" instance=ExtResource("4_eyxy6")]
-position = Vector2(340, 612)
+position = Vector2(224, 404)
 
 [node name="Block9" parent="." index="13" instance=ExtResource("4_eyxy6")]
-position = Vector2(476, 612)
+position = Vector2(288, 404)
 
 [node name="Block10" parent="." index="14" instance=ExtResource("4_eyxy6")]
-position = Vector2(476, 544)
+position = Vector2(288, 368)
 
 [node name="Block11" parent="." index="15" instance=ExtResource("4_eyxy6")]
-position = Vector2(340, 544)
+position = Vector2(224, 368)
