@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://dics4vpm8vwke"]
+[gd_scene load_steps=4 format=3 uid="uid://dics4vpm8vwke"]
 
 [ext_resource type="PackedScene" uid="uid://pr1xavi16le1" path="res://app/objects/Ground.tscn" id="1_84h51"]
-[ext_resource type="PackedScene" uid="uid://bqapfsud5m86i" path="res://app/objects/background.tscn" id="1_l70hs"]
+[ext_resource type="PackedScene" path="res://app/objects/background.tscn" id="1_l70hs"]
+[ext_resource type="PackedScene" uid="uid://cu4nn3n8c55l8" path="res://app/objects/Mouse Click.tscn" id="3_14x4k"]
 
 [node name="LevelBase" type="Node2D"]
 
@@ -9,3 +10,5 @@
 
 [node name="Ground" parent="." instance=ExtResource("1_84h51")]
 position = Vector2(395, 786)
+
+[node name="MouseClick" parent="." instance=ExtResource("3_14x4k")]

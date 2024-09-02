@@ -5,9 +5,9 @@
 [ext_resource type="PackedScene" uid="uid://ccevlx5p0brdm" path="res://app/objects/Blocks/Square.tscn" id="2_d1tcx"]
 [ext_resource type="PackedScene" uid="uid://xgohpf77yi2h" path="res://app/objects/Blocks/Cross.tscn" id="2_gcdds"]
 [ext_resource type="PackedScene" uid="uid://um1mj5quqvhy" path="res://app/objects/Ambulance.tscn" id="4_rin53"]
-[ext_resource type="PackedScene" uid="uid://dlc1kon5iqevb" path="res://app/objects/flag.tscn" id="5_dpxc6"]
+[ext_resource type="PackedScene" path="res://app/objects/flag.tscn" id="5_dpxc6"]
 
-[node name="LevelBase" instance=ExtResource("1_6tp2w")]
+[node name="LevelBase2" instance=ExtResource("1_6tp2w")]
 texture_filter = 1
 
 [node name="RigidBody2D" parent="." index="1" instance=ExtResource("4_rin53")]
