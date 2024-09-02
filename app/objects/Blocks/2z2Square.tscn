@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://dh7t68mc0nunj" path="res://assets/blocks/rect2x2.png" id="2_uxkwr"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_g3ptn"]
-size = Vector2(10, 32)
+size = Vector2(26, 32)
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_fyb31"]
 radius = 3.0
@@ -19,9 +19,9 @@ texture = ExtResource("2_uxkwr")
 shape = SubResource("RectangleShape2D_g3ptn")
 
 [node name="CollisionShape2D3" type="CollisionShape2D" parent="." index="2"]
-position = Vector2(-5, 0)
+position = Vector2(-13, 0)
 shape = SubResource("CapsuleShape2D_fyb31")
 
 [node name="CollisionShape2D4" type="CollisionShape2D" parent="." index="3"]
-position = Vector2(5, 0)
+position = Vector2(13, 0)
 shape = SubResource("CapsuleShape2D_fyb31")

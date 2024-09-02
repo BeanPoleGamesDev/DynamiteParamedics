@@ -4,11 +4,11 @@
 [ext_resource type="Texture2D" uid="uid://cq22puwltask8" path="res://assets/blocks/rect1x4.png" id="2_72t6p"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_dj2hd"]
-size = Vector2(10, 32)
+size = Vector2(10, 64)
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_bm326"]
 radius = 3.0
-height = 32.0
+height = 64.0
 
 [node name="Block" instance=ExtResource("1_hslnc")]
 

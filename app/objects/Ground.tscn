@@ -1,4 +1,6 @@
-[gd_scene load_steps=4 format=3 uid="uid://pr1xavi16le1"]
+[gd_scene load_steps=5 format=3 uid="uid://pr1xavi16le1"]
+
+[ext_resource type="Texture2D" uid="uid://plok00ecg24m" path="res://assets/blocks/ground.png" id="1_ggdht"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_twjuk"]
 rough = true
@@ -19,3 +21,7 @@ texture_repeat = 2
 material = SubResource("CanvasItemMaterial_0fxcy")
 shape = SubResource("RectangleShape2D_67qbs")
 debug_color = Color(0.875817, 0.00042047, 0.834561, 0.42)
+
+[node name="Polygon2D" type="Polygon2D" parent="."]
+texture = ExtResource("1_ggdht")
+polygon = PackedVector2Array(-470, -21, -376, -16, -229, -20, -86, -22, -50, -22, 96, -19, 301, -18, 370, -23, 443, -22, 438, 60, -451, 66)

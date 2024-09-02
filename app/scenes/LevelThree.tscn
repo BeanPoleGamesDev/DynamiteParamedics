@@ -1,3 +1,125 @@
-[gd_scene format=3 uid="uid://b6gndovnhmqgu"]
+[gd_scene load_steps=10 format=3 uid="uid://gix7gmvy4x5r"]
 
-[node name="LevelThree" type="Node2D"]
+[ext_resource type="PackedScene" uid="uid://dics4vpm8vwke" path="res://app/scenes/LevelBase.tscn" id="1_lcyb2"]
+[ext_resource type="PackedScene" uid="uid://um1mj5quqvhy" path="res://app/objects/Ambulance.tscn" id="2_1qvd3"]
+[ext_resource type="PackedScene" uid="uid://dlc1kon5iqevb" path="res://app/objects/flag.tscn" id="3_y7v6q"]
+[ext_resource type="PackedScene" uid="uid://c284hsotqlj0l" path="res://app/objects/Blocks/1x1Circle.tscn" id="4_sw6q8"]
+[ext_resource type="PackedScene" uid="uid://cbh1mqryh3fxp" path="res://app/objects/Blocks/3x3HShape.tscn" id="5_kfha7"]
+[ext_resource type="PackedScene" uid="uid://xgohpf77yi2h" path="res://app/objects/Blocks/Cross.tscn" id="6_syrdr"]
+[ext_resource type="PackedScene" uid="uid://ka3giuyj5gmc" path="res://app/objects/Blocks/4x3HShape.tscn" id="7_582jk"]
+[ext_resource type="PackedScene" uid="uid://bet0jwi8td0lk" path="res://app/objects/Blocks/2x1Rectangle.tscn" id="8_uvmkx"]
+[ext_resource type="PackedScene" uid="uid://dlp201hrn1dfd" path="res://app/objects/Blocks/2x2Circle.tscn" id="9_r74nm"]
+
+[node name="LevelBase2" instance=ExtResource("1_lcyb2")]
+texture_filter = 1
+
+[node name="RigidBody2D" parent="." index="1" instance=ExtResource("2_1qvd3")]
+position = Vector2(408, -85)
+
+[node name="flag" parent="." index="2" instance=ExtResource("3_y7v6q")]
+position = Vector2(408, 782)
+
+[node name="Ground" parent="." index="3"]
+position = Vector2(408, 799)
+
+[node name="Block3" parent="." index="5" instance=ExtResource("4_sw6q8")]
+position = Vector2(867, 680)
+
+[node name="Block26" parent="." index="6" instance=ExtResource("4_sw6q8")]
+position = Vector2(425, 459)
+
+[node name="Block27" parent="." index="7" instance=ExtResource("4_sw6q8")]
+position = Vector2(391, 459)
+
+[node name="Block4" parent="." index="8" instance=ExtResource("5_kfha7")]
+position = Vector2(850, 374)
+
+[node name="Block10" parent="." index="9" instance=ExtResource("5_kfha7")]
+position = Vector2(459, 663)
+
+[node name="Block11" parent="." index="10" instance=ExtResource("5_kfha7")]
+position = Vector2(561, 663)
+
+[node name="Block12" parent="." index="11" instance=ExtResource("5_kfha7")]
+position = Vector2(255, 663)
+
+[node name="Block17" parent="." index="12" instance=ExtResource("5_kfha7")]
+position = Vector2(255, 527)
+
+[node name="Block18" parent="." index="13" instance=ExtResource("5_kfha7")]
+position = Vector2(357, 527)
+
+[node name="Block23" parent="." index="14" instance=ExtResource("5_kfha7")]
+position = Vector2(357, 391)
+
+[node name="Block24" parent="." index="15" instance=ExtResource("5_kfha7")]
+position = Vector2(459, 391)
+
+[node name="Block19" parent="." index="16" instance=ExtResource("5_kfha7")]
+position = Vector2(459, 527)
+
+[node name="Block20" parent="." index="17" instance=ExtResource("5_kfha7")]
+position = Vector2(561, 527)
+
+[node name="Block7" parent="." index="18" instance=ExtResource("5_kfha7")]
+position = Vector2(357, 663)
+
+[node name="Block5" parent="." index="19" instance=ExtResource("6_syrdr")]
+position = Vector2(816, 493)
+
+[node name="Block13" parent="." index="20" instance=ExtResource("6_syrdr")]
+position = Vector2(561, 595)
+
+[node name="Block14" parent="." index="21" instance=ExtResource("6_syrdr")]
+position = Vector2(459, 595)
+
+[node name="Block15" parent="." index="22" instance=ExtResource("6_syrdr")]
+position = Vector2(357, 595)
+
+[node name="Block16" parent="." index="23" instance=ExtResource("6_syrdr")]
+position = Vector2(255, 595)
+
+[node name="Block" parent="." index="24" instance=ExtResource("7_582jk")]
+position = Vector2(799, 578)
+
+[node name="Block25" parent="." index="25" instance=ExtResource("7_582jk")]
+position = Vector2(408, 323)
+
+[node name="Block21" parent="." index="26" instance=ExtResource("7_582jk")]
+position = Vector2(510, 459)
+
+[node name="Block22" parent="." index="27" instance=ExtResource("7_582jk")]
+position = Vector2(306, 459)
+
+[node name="Block9" parent="." index="28" instance=ExtResource("7_582jk")]
+position = Vector2(510, 731)
+
+[node name="Block8" parent="." index="29" instance=ExtResource("7_582jk")]
+position = Vector2(306, 731)
+
+[node name="Block6" parent="." index="30" instance=ExtResource("8_uvmkx")]
+position = Vector2(799, 680)
+
+[node name="Block29" parent="." index="31" instance=ExtResource("8_uvmkx")]
+position = Vector2(595, 748)
+
+[node name="Block30" parent="." index="32" instance=ExtResource("8_uvmkx")]
+position = Vector2(221, 748)
+
+[node name="Block31" parent="." index="33" instance=ExtResource("8_uvmkx")]
+position = Vector2(306, 765)
+rotation = 1.5708
+
+[node name="Block32" parent="." index="34" instance=ExtResource("8_uvmkx")]
+position = Vector2(510, 765)
+rotation = 1.5708
+
+[node name="Block33" parent="." index="35" instance=ExtResource("8_uvmkx")]
+position = Vector2(408, 289)
+rotation = 1.5708
+
+[node name="Block2" parent="." index="36" instance=ExtResource("9_r74nm")]
+position = Vector2(714, 680)
+
+[node name="Block28" parent="." index="37" instance=ExtResource("9_r74nm")]
+position = Vector2(408, 748)

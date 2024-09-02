@@ -4,14 +4,14 @@
 [ext_resource type="Texture2D" uid="uid://0qalfwj87wqb" path="res://assets/blocks/corner2x4.png" id="2_vr4xa"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ja7nu"]
-size = Vector2(10, 32)
+size = Vector2(10, 48)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_n6151"]
 size = Vector2(26, 16)
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_mpq1r"]
 radius = 3.0
-height = 32.0
+height = 64.0
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_lj8rx"]
 radius = 3.0
@@ -23,11 +23,11 @@ height = 16.0
 texture = ExtResource("2_vr4xa")
 
 [node name="CollisionShape2D6" type="CollisionShape2D" parent="." index="1"]
-position = Vector2(-8, 0)
+position = Vector2(-8, -8)
 shape = SubResource("RectangleShape2D_ja7nu")
 
 [node name="CollisionShape2D7" type="CollisionShape2D" parent="." index="2"]
-position = Vector2(0, 8)
+position = Vector2(-1, 24)
 shape = SubResource("RectangleShape2D_n6151")
 
 [node name="CollisionShape2D8" type="CollisionShape2D" parent="." index="3"]
@@ -39,5 +39,5 @@ position = Vector2(-3, 0)
 shape = SubResource("CapsuleShape2D_mpq1r")
 
 [node name="CollisionShape2D10" type="CollisionShape2D" parent="." index="5"]
-position = Vector2(13, 8)
+position = Vector2(12, 24)
 shape = SubResource("CapsuleShape2D_lj8rx")
