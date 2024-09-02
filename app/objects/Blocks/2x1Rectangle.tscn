@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=3 uid="uid://bet0jwi8td0lk"]
 
-[ext_resource type="Texture2D" uid="uid://csu6r3j4r6mih" path="res://assets/blocks/rect1x2.png" id="1_4alub"]
+[ext_resource type="Texture2D" uid="uid://4w67fwd8p5yx" path="res://assets/blocks/rect1x2.png" id="1_4alub"]
 [ext_resource type="PackedScene" uid="uid://b5iw6y8hrwoph" path="res://app/objects/Blocks/Block.tscn" id="1_41ir4"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_acxa0"]

@@ -1,22 +1,54 @@
-[gd_scene load_steps=4 format=3 uid="uid://5gyywbjp2kwa"]
+[gd_scene load_steps=6 format=3 uid="uid://5gyywbjp2kwa"]
 
-[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_aunr1"]
-blend_mode = 2
-
-[sub_resource type="CanvasTexture" id="CanvasTexture_w6l6m"]
+[ext_resource type="Script" path="res://app/objects/dynamite.gd" id="1_4dkje"]
+[ext_resource type="Texture2D" uid="uid://ch5homj2xao41" path="res://assets/Dynamite-SpriteSheet.png" id="2_8qflc"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_rwcx2"]
 radius = 43.0
 
+[sub_resource type="Animation" id="Animation_jaarn"]
+resource_name = "explosion"
+length = 3.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(-0.2, 0.8, 1.8),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 1,
+"values": [0, 1, 2]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_y7m1c"]
+_data = {
+"explosion": SubResource("Animation_jaarn")
+}
+
 [node name="Dynamite" type="Node2D"]
+script = ExtResource("1_4dkje")
+
+[node name="area_of_affect" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="area_of_affect"]
+shape = SubResource("CircleShape2D_rwcx2")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-material = SubResource("CanvasItemMaterial_aunr1")
+texture_filter = 1
 position = Vector2(-4.76837e-07, 5.96046e-07)
-scale = Vector2(16, 16)
-texture = SubResource("CanvasTexture_w6l6m")
+texture = ExtResource("2_8qflc")
+hframes = 4
 
-[node name="Area2D" type="Area2D" parent="."]
+[node name="dynamite_fuse_timer" type="Timer" parent="."]
+process_callback = 0
+wait_time = 3.0
+one_shot = true
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
-shape = SubResource("CircleShape2D_rwcx2")
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_y7m1c")
+}
+
+[connection signal="timeout" from="dynamite_fuse_timer" to="." method="_on_dynamite_fuse_timer_timeout"]
