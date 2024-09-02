@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://bdx0cajak6wyi"]
+
+[ext_resource type="PackedScene" uid="uid://blfb6ourr52y3" path="res://app/objects/Blocks/StaticBlock.tscn" id="1_0364m"]
+[ext_resource type="Texture2D" uid="uid://dni1p8ym4p06p" path="res://assets/blocks/permaAnchor.png" id="2_hbuqt"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_2n4n2"]
+size = Vector2(34, 34)
+
+[node name="StaticBlock" instance=ExtResource("1_0364m")]
+
+[node name="Sprite2D" type="Sprite2D" parent="." index="0"]
+texture_filter = 1
+position = Vector2(-1.90735e-06, -1.90735e-06)
+scale = Vector2(2.125, 2.125)
+texture = ExtResource("2_hbuqt")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." index="1"]
+texture_filter = 1
+shape = SubResource("RectangleShape2D_2n4n2")

@@ -14,19 +14,24 @@ height = 34.0
 position = Vector2(17, 17)
 
 [node name="Sprite2D" type="Sprite2D" parent="." index="0"]
+texture_filter = 1
+position = Vector2(-1.90735e-06, -1.90735e-06)
 scale = Vector2(2.125, 2.125)
 texture = ExtResource("2_ir4g5")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." index="1"]
-visible = false
+
+texture_filter = 1
+position = Vector2(-1.90735e-06, -1.90735e-06)
 shape = SubResource("RectangleShape2D_ti2t6")
 
 [node name="CollisionShape2D3" type="CollisionShape2D" parent="." index="2"]
-visible = false
-position = Vector2(-10, 0)
+texture_filter = 1
+position = Vector2(-10, -1.90735e-06)
 shape = SubResource("CapsuleShape2D_w1nme")
 
 [node name="CollisionShape2D4" type="CollisionShape2D" parent="." index="3"]
-visible = false
-position = Vector2(10, 0)
+texture_filter = 1
+position = Vector2(10, -1.90735e-06)
+
 shape = SubResource("CapsuleShape2D_w1nme")

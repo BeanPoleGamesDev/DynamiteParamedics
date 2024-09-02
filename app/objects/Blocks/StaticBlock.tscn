@@ -1,0 +1,4 @@
+[gd_scene format=3 uid="uid://blfb6ourr52y3"]
+
+[node name="StaticBlock" type="StaticBody2D"]
+texture_filter = 1
