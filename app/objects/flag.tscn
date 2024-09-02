@@ -29,11 +29,12 @@ texture = ExtResource("1_n1og2")
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 position = Vector2(51, -9)
+collision_layer = 2
+collision_mask = 2
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
 position = Vector2(-5, 0)
 shape = SubResource("RectangleShape2D_cvwkx")
-disabled = true
 
 [node name="Sprite2D2" type="Sprite2D" parent="StaticBody2D"]
 z_index = 1
