@@ -5,7 +5,14 @@ extends Node
 @onready var helicopter: AudioStreamPlayer = $helicopter
 @onready var siren: AudioStreamPlayer = $siren
 @onready var explosion: AudioStreamPlayer = $explosion
+@onready var music_player: AudioStreamPlayer = $music_player
 
+var single_play = true
+
+#func _ready() -> void:
+	#if single_play:
+		#music_player.play()
+		#single_play = false
 
 func play_explosion():
 	explosion.play()
@@ -14,7 +21,8 @@ func play_helicopter():
 	helicopter.play()
 
 func play_siren():
-	siren.play()
+	#siren.play()
+	pass
 
 func play_rock_break():
 	rock_break.play()

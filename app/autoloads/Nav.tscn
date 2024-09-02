@@ -1,16 +1,21 @@
-[gd_scene load_steps=8 format=3 uid="uid://buefo6lkbo07a"]
+[gd_scene load_steps=13 format=3 uid="uid://buefo6lkbo07a"]
 
 [ext_resource type="Script" path="res://app/autoloads/nav.gd" id="1_i2pr6"]
 [ext_resource type="PackedScene" uid="uid://br6wr6v8oulnp" path="res://app/scenes/LevelOne.tscn" id="2_nmbki"]
 [ext_resource type="PackedScene" uid="uid://cmk5wfhmp75rn" path="res://app/scenes/LevelTwo.tscn" id="3_r0bn5"]
 [ext_resource type="PackedScene" uid="uid://gix7gmvy4x5r" path="res://app/scenes/LevelThree.tscn" id="4_0r23r"]
+[ext_resource type="PackedScene" uid="uid://dof22147lscen" path="res://app/scenes/LevelFour.tscn" id="5_c46ku"]
 [ext_resource type="PackedScene" uid="uid://b1jqk2wumfs5g" path="res://start_animation.tscn" id="5_fkli4"]
+[ext_resource type="PackedScene" uid="uid://r4u7b8ad7ccs" path="res://app/scenes/LevelFive.tscn" id="6_4ghtj"]
 [ext_resource type="PackedScene" uid="uid://dlpbgetutmd6q" path="res://end_animation.tscn" id="6_fpfwt"]
+[ext_resource type="PackedScene" uid="uid://csb8hshbxln3d" path="res://app/scenes/LevelSix.tscn" id="7_wf5q2"]
 [ext_resource type="PackedScene" uid="uid://bbob7e02euxpt" path="res://app/scenes/thanksforplaying.tscn" id="7_yh5qk"]
+[ext_resource type="PackedScene" uid="uid://deiatieslo148" path="res://app/scenes/LevelSeven.tscn" id="8_2c055"]
+[ext_resource type="PackedScene" uid="uid://7ggr5iqcrxsi" path="res://app/scenes/LevelEight.tscn" id="9_m0j1o"]
 
 [node name="Nav" type="Node"]
 script = ExtResource("1_i2pr6")
-views = Array[PackedScene]([ExtResource("2_nmbki"), ExtResource("3_r0bn5"), ExtResource("4_0r23r")])
+views = Array[PackedScene]([ExtResource("2_nmbki"), ExtResource("3_r0bn5"), ExtResource("4_0r23r"), ExtResource("5_c46ku"), ExtResource("6_4ghtj"), ExtResource("7_wf5q2"), ExtResource("8_2c055"), ExtResource("9_m0j1o")])
 cut_scene_start = ExtResource("5_fkli4")
 cut_scene_win = ExtResource("6_fpfwt")
 thanksforplaying = ExtResource("7_yh5qk")
