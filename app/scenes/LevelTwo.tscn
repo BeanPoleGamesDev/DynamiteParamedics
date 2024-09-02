@@ -18,6 +18,9 @@ rotation = 3.14159
 [node name="flag" parent="." index="2" instance=ExtResource("3_8pdq5")]
 position = Vector2(256, 504)
 
+[node name="Ground" parent="." index="4"]
+position = Vector2(408, 799)
+
 [node name="Block5" parent="." index="5" instance=ExtResource("7_58awt")]
 position = Vector2(312, 432)
 

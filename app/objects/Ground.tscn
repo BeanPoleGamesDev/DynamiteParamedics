@@ -23,7 +23,10 @@ material = SubResource("CanvasItemMaterial_0fxcy")
 shape = SubResource("RectangleShape2D_67qbs")
 debug_color = Color(0.875817, 0.00042047, 0.834561, 0.42)
 
-[node name="Polygon2D" type="Polygon2D" parent="."]
-position = Vector2(0, 11)
+[node name="Polygon2D" type="Polygon2D" parent="RigidBody2D"]
+position = Vector2(0, 12)
 texture = ExtResource("1_ggdht")
 polygon = PackedVector2Array(-470, -21, -376, -16, -229, -20, -86, -22, -50, -22, 96, -19, 301, -18, 370, -23, 443, -22, 438, 60, -451, 66)
+
+[node name="Polygon2D" type="Polygon2D" parent="."]
+position = Vector2(0, 11)
