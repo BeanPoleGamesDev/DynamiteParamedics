@@ -1,0 +1,60 @@
+[gd_scene load_steps=7 format=3 uid="uid://csb8hshbxln3d"]
+
+[ext_resource type="PackedScene" uid="uid://dics4vpm8vwke" path="res://app/scenes/LevelBase.tscn" id="1_k6v2c"]
+[ext_resource type="PackedScene" uid="uid://um1mj5quqvhy" path="res://app/objects/Ambulance.tscn" id="2_154s2"]
+[ext_resource type="PackedScene" uid="uid://dlc1kon5iqevb" path="res://app/objects/flag.tscn" id="3_wkcg0"]
+[ext_resource type="PackedScene" uid="uid://ka3giuyj5gmc" path="res://app/objects/Blocks/4x3HShape.tscn" id="4_s60iy"]
+[ext_resource type="PackedScene" uid="uid://xgohpf77yi2h" path="res://app/objects/Blocks/Cross.tscn" id="4_vukum"]
+[ext_resource type="PackedScene" uid="uid://b1ndkrjp0truy" path="res://app/objects/Blocks/2z2Square.tscn" id="5_s7jo2"]
+
+[node name="LevelBase2" instance=ExtResource("1_k6v2c")]
+texture_filter = 1
+
+[node name="RigidBody2D" parent="." index="1" instance=ExtResource("2_154s2")]
+position = Vector2(391, -85)
+
+[node name="flag" parent="." index="2" instance=ExtResource("3_wkcg0")]
+position = Vector2(408, 782)
+
+[node name="Ground" parent="." index="4"]
+position = Vector2(408, 799)
+
+[node name="Score" parent="." index="6"]
+metadata/_edit_lock_ = true
+
+[node name="Block" parent="." index="8" instance=ExtResource("4_vukum")]
+position = Vector2(357, 731)
+
+[node name="Block" parent="Block" index="7" instance=ExtResource("4_s60iy")]
+position = Vector2(51, -221)
+rotation = 1.5708
+
+[node name="Block2" parent="." index="9" instance=ExtResource("4_vukum")]
+position = Vector2(629, 731)
+
+[node name="Block3" parent="." index="10" instance=ExtResource("4_vukum")]
+position = Vector2(561, 697)
+
+[node name="Block4" parent="." index="11" instance=ExtResource("4_vukum")]
+position = Vector2(323, 663)
+
+[node name="Block5" parent="." index="12" instance=ExtResource("4_vukum")]
+position = Vector2(255, 697)
+
+[node name="Block6" parent="." index="13" instance=ExtResource("4_vukum")]
+position = Vector2(187, 731)
+
+[node name="Block7" parent="." index="14" instance=ExtResource("4_vukum")]
+position = Vector2(459, 731)
+
+[node name="Block8" parent="." index="15" instance=ExtResource("4_vukum")]
+position = Vector2(493, 663)
+
+[node name="Block9" parent="." index="16" instance=ExtResource("5_s7jo2")]
+position = Vector2(408, 680)
+
+[node name="Block10" parent="." index="17" instance=ExtResource("5_s7jo2")]
+position = Vector2(374, 612)
+
+[node name="Block11" parent="." index="18" instance=ExtResource("5_s7jo2")]
+position = Vector2(442, 612)

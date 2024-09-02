@@ -1,0 +1,45 @@
+[gd_scene load_steps=5 format=3 uid="uid://7ggr5iqcrxsi"]
+
+[ext_resource type="PackedScene" uid="uid://dics4vpm8vwke" path="res://app/scenes/LevelBase.tscn" id="1_10gpk"]
+[ext_resource type="PackedScene" uid="uid://um1mj5quqvhy" path="res://app/objects/Ambulance.tscn" id="2_y8y5v"]
+[ext_resource type="PackedScene" uid="uid://dlc1kon5iqevb" path="res://app/objects/flag.tscn" id="3_h1h0p"]
+[ext_resource type="PackedScene" uid="uid://ukrmyyn0ccy7" path="res://app/objects/Blocks/2x4Rectangle.tscn" id="4_eyxy6"]
+
+[node name="LevelBase2" instance=ExtResource("1_10gpk")]
+texture_filter = 1
+
+[node name="RigidBody2D" parent="." index="1" instance=ExtResource("2_y8y5v")]
+position = Vector2(391, -85)
+
+[node name="flag" parent="." index="2" instance=ExtResource("3_h1h0p")]
+position = Vector2(408, 782)
+
+[node name="Ground" parent="." index="4"]
+position = Vector2(408, 799)
+
+[node name="Score" parent="." index="6"]
+metadata/_edit_lock_ = true
+
+[node name="Block4" parent="." index="8" instance=ExtResource("4_eyxy6")]
+position = Vector2(340, 748)
+
+[node name="Block5" parent="." index="9" instance=ExtResource("4_eyxy6")]
+position = Vector2(476, 748)
+
+[node name="Block6" parent="." index="10" instance=ExtResource("4_eyxy6")]
+position = Vector2(476, 680)
+
+[node name="Block7" parent="." index="11" instance=ExtResource("4_eyxy6")]
+position = Vector2(340, 680)
+
+[node name="Block8" parent="." index="12" instance=ExtResource("4_eyxy6")]
+position = Vector2(340, 612)
+
+[node name="Block9" parent="." index="13" instance=ExtResource("4_eyxy6")]
+position = Vector2(476, 612)
+
+[node name="Block10" parent="." index="14" instance=ExtResource("4_eyxy6")]
+position = Vector2(476, 544)
+
+[node name="Block11" parent="." index="15" instance=ExtResource("4_eyxy6")]
+position = Vector2(340, 544)
