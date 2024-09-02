@@ -16,6 +16,7 @@ func _process(delta: float) -> void:
 		var clickedBlock = overlappingBodies.front()
 		if (clickedBlock):
 			clickedBlock.add_child(bomb)
+			get_tree().call_group("score","increment_score")
 	pass
 	
 func _physics_process(delta: float) -> void:

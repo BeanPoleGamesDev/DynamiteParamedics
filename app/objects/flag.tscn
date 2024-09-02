@@ -1,7 +1,8 @@
-[gd_scene load_steps=4 format=3 uid="uid://dlc1kon5iqevb"]
+[gd_scene load_steps=5 format=3 uid="uid://dlc1kon5iqevb"]
 
 [ext_resource type="Script" path="res://app/objects/flag.gd" id="1_8oofb"]
 [ext_resource type="Texture2D" uid="uid://oeamf1817iew" path="res://assets/CheckeredFlag.png" id="1_n1og2"]
+[ext_resource type="Texture2D" uid="uid://dhqfq2ng8oyqy" path="res://assets/NotDeadGuy-SpriteSheet.png" id="3_iaivh"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_never"]
 size = Vector2(64, 65)
@@ -16,9 +17,17 @@ position = Vector2(3, -32.5)
 shape = SubResource("RectangleShape2D_never")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
+z_index = 1
 texture_filter = 1
 position = Vector2(0, -34)
 scale = Vector2(2.125, 2.125)
 texture = ExtResource("1_n1og2")
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+z_index = 1
+texture_filter = 1
+position = Vector2(71, -25)
+scale = Vector2(2.125, 2.125)
+texture = ExtResource("3_iaivh")
 
 [connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
