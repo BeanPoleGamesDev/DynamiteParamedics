@@ -10,6 +10,9 @@ func next_lvl()->void:
 func restart_lvl()->void:
 	open_lvl(lvl)
 
+func end_start_cut_scene()->void:
+	open_lvl(lvl)
+
 func open_lvl(idx: int)->void:
 	lvl = idx
 	if lvl >= views.size():

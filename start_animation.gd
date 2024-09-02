@@ -4,5 +4,4 @@ extends Node2D
 
 
 func _on_animated_sprite_2d_animation_finished() -> void:
-	#call_next scene
-	pass
+	Nav.end_start_cut_scene()
