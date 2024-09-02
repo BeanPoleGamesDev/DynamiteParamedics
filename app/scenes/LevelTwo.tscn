@@ -1,22 +1,19 @@
-[gd_scene load_steps=12 format=3 uid="uid://cmk5wfhmp75rn"]
+[gd_scene load_steps=8 format=3 uid="uid://cmk5wfhmp75rn"]
 
 [ext_resource type="PackedScene" uid="uid://dics4vpm8vwke" path="res://app/scenes/LevelBase.tscn" id="1_yqkci"]
 [ext_resource type="PackedScene" uid="uid://um1mj5quqvhy" path="res://app/objects/Ambulance.tscn" id="2_8qjq6"]
 [ext_resource type="PackedScene" uid="uid://dlc1kon5iqevb" path="res://app/objects/flag.tscn" id="3_8pdq5"]
-[ext_resource type="PackedScene" uid="uid://c774fwqgimy15" path="res://app/objects/Blocks/ImmovableBlock.tscn" id="5_l1q3g"]
 [ext_resource type="PackedScene" uid="uid://dockw3x5o80uv" path="res://app/objects/Blocks/5x1Rectangle.tscn" id="7_58awt"]
-[ext_resource type="PackedScene" uid="uid://613q751wekob" path="res://app/objects/Blocks/4x2Corner.tscn" id="8_0qnhw"]
 [ext_resource type="PackedScene" uid="uid://cmwixj7k6jkpr" path="res://app/objects/Blocks/2x2Corner.tscn" id="8_aikcg"]
 [ext_resource type="PackedScene" uid="uid://dlp201hrn1dfd" path="res://app/objects/Blocks/2x2Circle.tscn" id="8_n10ym"]
-[ext_resource type="PackedScene" uid="uid://b1ndkrjp0truy" path="res://app/objects/Blocks/2z2Square.tscn" id="9_s1hjo"]
-[ext_resource type="PackedScene" uid="uid://xgohpf77yi2h" path="res://app/objects/Blocks/Cross.tscn" id="10_618mp"]
 [ext_resource type="PackedScene" uid="uid://cbh1mqryh3fxp" path="res://app/objects/Blocks/3x3HShape.tscn" id="11_dur4v"]
 
 [node name="LevelBase2" instance=ExtResource("1_yqkci")]
 texture_filter = 1
 
 [node name="RigidBody2D" parent="." index="1" instance=ExtResource("2_8qjq6")]
-position = Vector2(408, -85)
+position = Vector2(425, -85)
+rotation = 3.14159
 
 [node name="flag" parent="." index="2" instance=ExtResource("3_8pdq5")]
 position = Vector2(408, 782)
@@ -24,127 +21,48 @@ position = Vector2(408, 782)
 [node name="Ground" parent="." index="3"]
 position = Vector2(408, 799)
 
-[node name="StaticBlock" parent="." index="5" instance=ExtResource("5_l1q3g")]
-position = Vector2(255, 765)
+[node name="Block5" parent="." index="5" instance=ExtResource("7_58awt")]
+position = Vector2(527, 629)
 
-[node name="StaticBlock2" parent="." index="6" instance=ExtResource("5_l1q3g")]
-position = Vector2(595, 765)
+[node name="Block10" parent="." index="6" instance=ExtResource("7_58awt")]
+position = Vector2(408, 663)
+rotation = 1.5708
 
-[node name="StaticBlock3" parent="." index="7" instance=ExtResource("5_l1q3g")]
-position = Vector2(255, 731)
+[node name="Block4" parent="." index="7" instance=ExtResource("7_58awt")]
+position = Vector2(289, 629)
 
-[node name="StaticBlock4" parent="." index="8" instance=ExtResource("5_l1q3g")]
-position = Vector2(595, 731)
+[node name="Block" parent="." index="8" instance=ExtResource("11_dur4v")]
+position = Vector2(289, 731)
 
-[node name="StaticBlock5" parent="." index="9" instance=ExtResource("5_l1q3g")]
-position = Vector2(255, 697)
+[node name="Block6" parent="." index="9" instance=ExtResource("11_dur4v")]
+position = Vector2(289, 527)
 
-[node name="StaticBlock6" parent="." index="10" instance=ExtResource("5_l1q3g")]
-position = Vector2(595, 697)
+[node name="Block7" parent="." index="10" instance=ExtResource("11_dur4v")]
+position = Vector2(323, 459)
 
-[node name="StaticBlock7" parent="." index="11" instance=ExtResource("5_l1q3g")]
-position = Vector2(255, 663)
+[node name="Block2" parent="." index="11" instance=ExtResource("11_dur4v")]
+position = Vector2(527, 731)
 
-[node name="StaticBlock8" parent="." index="12" instance=ExtResource("5_l1q3g")]
-position = Vector2(595, 663)
+[node name="Block3" parent="." index="12" instance=ExtResource("11_dur4v")]
+position = Vector2(527, 527)
 
-[node name="StaticBlock9" parent="." index="13" instance=ExtResource("5_l1q3g")]
-position = Vector2(255, 629)
-
-[node name="StaticBlock10" parent="." index="14" instance=ExtResource("5_l1q3g")]
-position = Vector2(595, 629)
-
-[node name="StaticBlock11" parent="." index="15" instance=ExtResource("5_l1q3g")]
-position = Vector2(255, 595)
-
-[node name="StaticBlock12" parent="." index="16" instance=ExtResource("5_l1q3g")]
-position = Vector2(595, 595)
-
-[node name="StaticBlock13" parent="." index="17" instance=ExtResource("5_l1q3g")]
-position = Vector2(255, 561)
-
-[node name="StaticBlock14" parent="." index="18" instance=ExtResource("5_l1q3g")]
-position = Vector2(595, 561)
-
-[node name="StaticBlock15" parent="." index="19" instance=ExtResource("5_l1q3g")]
-position = Vector2(255, 527)
-
-[node name="StaticBlock16" parent="." index="20" instance=ExtResource("5_l1q3g")]
-position = Vector2(595, 527)
-
-[node name="StaticBlock17" parent="." index="21" instance=ExtResource("5_l1q3g")]
-position = Vector2(255, 493)
-
-[node name="StaticBlock18" parent="." index="22" instance=ExtResource("5_l1q3g")]
-position = Vector2(595, 493)
-
-[node name="StaticBlock19" parent="." index="23" instance=ExtResource("5_l1q3g")]
-position = Vector2(255, 459)
-
-[node name="StaticBlock20" parent="." index="24" instance=ExtResource("5_l1q3g")]
-position = Vector2(595, 459)
-
-[node name="StaticBlock21" parent="." index="25" instance=ExtResource("5_l1q3g")]
-position = Vector2(255, 425)
-
-[node name="StaticBlock22" parent="." index="26" instance=ExtResource("5_l1q3g")]
-position = Vector2(595, 425)
-
-[node name="StaticBlock23" parent="." index="27" instance=ExtResource("5_l1q3g")]
-position = Vector2(255, 391)
-
-[node name="StaticBlock24" parent="." index="28" instance=ExtResource("5_l1q3g")]
-position = Vector2(595, 391)
-
-[node name="Block5" parent="." index="29" instance=ExtResource("8_n10ym")]
-position = Vector2(306, 612)
-rotation = 1.06216
-
-[node name="Block18" parent="." index="30" instance=ExtResource("8_n10ym")]
-position = Vector2(544, 561)
-rotation = 0.030012
-
-[node name="Block3" parent="." index="31" instance=ExtResource("8_aikcg")]
-position = Vector2(544, 493)
-rotation = 2.51432
-
-[node name="Block7" parent="." index="32" instance=ExtResource("8_0qnhw")]
-position = Vector2(357, 442)
-rotation = -0.527099
-
-[node name="Block6" parent="." index="33" instance=ExtResource("8_0qnhw")]
-position = Vector2(408, 578)
-rotation = 2.71496
-
-[node name="Block20" parent="." index="34" instance=ExtResource("8_n10ym")]
-position = Vector2(306, 493)
-rotation = 2.71496
-
-[node name="Block15" parent="." index="35" instance=ExtResource("8_n10ym")]
-position = Vector2(408, 391)
-rotation = 0.030012
-
-[node name="Block16" parent="." index="36" instance=ExtResource("8_n10ym")]
-position = Vector2(510, 629)
-rotation = 0.030012
-
-[node name="Block17" parent="." index="37" instance=ExtResource("8_n10ym")]
-position = Vector2(391, 748)
-rotation = 0.030012
-
-[node name="Block4" parent="." index="38" instance=ExtResource("7_58awt")]
+[node name="Block8" parent="." index="13" instance=ExtResource("11_dur4v")]
 position = Vector2(493, 459)
-rotation = 1.06216
 
-[node name="Block8" parent="." index="39" instance=ExtResource("9_s1hjo")]
-position = Vector2(476, 544)
+[node name="Block9" parent="." index="14" instance=ExtResource("8_aikcg")]
+position = Vector2(374, 612)
 
-[node name="Block2" parent="." index="40" instance=ExtResource("10_618mp")]
-position = Vector2(391, 663)
-rotation = -0.636689
+[node name="Block12" parent="." index="15" instance=ExtResource("8_aikcg")]
+position = Vector2(374, 544)
+rotation = 1.5708
 
-[node name="Block9" parent="." index="41" instance=ExtResource("9_s1hjo")]
-position = Vector2(306, 731)
+[node name="Block13" parent="." index="16" instance=ExtResource("8_aikcg")]
+position = Vector2(442, 544)
+rotation = 3.14159
 
-[node name="Block" parent="." index="42" instance=ExtResource("11_dur4v")]
-position = Vector2(527, 714)
+[node name="Block14" parent="." index="17" instance=ExtResource("8_aikcg")]
+position = Vector2(442, 612)
+rotation = 4.71239
+
+[node name="Block15" parent="." index="18" instance=ExtResource("8_n10ym")]
+position = Vector2(408, 578)
