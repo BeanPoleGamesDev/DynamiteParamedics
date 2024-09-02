@@ -1,13 +1,11 @@
-[gd_scene load_steps=6 format=3 uid="uid://dics4vpm8vwke"]
+[gd_scene load_steps=7 format=3 uid="uid://dics4vpm8vwke"]
 
 [ext_resource type="PackedScene" uid="uid://pr1xavi16le1" path="res://app/objects/Ground.tscn" id="1_84h51"]
 [ext_resource type="PackedScene" uid="uid://bqapfsud5m86i" path="res://app/objects/background.tscn" id="1_l70hs"]
-[ext_resource type="PackedScene" uid="uid://dol605qulc5gl" path="res://app/objects/GuiLayer.tscn" id="2_0u60y"]
+[ext_resource type="PackedScene" path="res://app/objects/GuiLayer.tscn" id="2_0u60y"]
 [ext_resource type="PackedScene" uid="uid://cu4nn3n8c55l8" path="res://app/objects/Mouse Click.tscn" id="3_14x4k"]
 [ext_resource type="PackedScene" uid="uid://bm4vsc8bp5iop" path="res://app/objects/score.tscn" id="4_akoc1"]
 [ext_resource type="PackedScene" uid="uid://s6d4wj1phk88" path="res://app/objects/death_boundry.tscn" id="5_hsmab"]
-
-[ext_resource type="PackedScene" path="res://app/objects/Mouse Click.tscn" id="3_14x4k"]
 
 [node name="LevelBase" type="Node2D"]
 
@@ -16,7 +14,7 @@
 [node name="CanvasLayer" parent="." instance=ExtResource("2_0u60y")]
 
 [node name="Ground" parent="." instance=ExtResource("1_84h51")]
-position = Vector2(256, 504)
+position = Vector2(256, 512)
 
 [node name="MouseClick" parent="." instance=ExtResource("3_14x4k")]
 
@@ -24,10 +22,11 @@ position = Vector2(256, 504)
 anchors_preset = 0
 anchor_right = 0.0
 anchor_bottom = 0.0
-offset_right = 816.0
-offset_bottom = 816.0
+offset_right = 512.0
+offset_bottom = 512.0
 grow_horizontal = 1
 grow_vertical = 1
+metadata/_edit_lock_ = true
 
 [node name="death_boundry" parent="." instance=ExtResource("5_hsmab")]
-position = Vector2(400, 1168)
+position = Vector2(264, 592)

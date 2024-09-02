@@ -12,68 +12,68 @@
 texture_filter = 1
 
 [node name="RigidBody2D" parent="." index="1" instance=ExtResource("4_rin53")]
-position = Vector2(408, -85)
+position = Vector2(256, -24)
 
 [node name="flag" parent="." index="2" instance=ExtResource("5_dpxc6")]
-position = Vector2(408, 782)
+position = Vector2(256, 504)
 
-[node name="Ground" parent="." index="3"]
-position = Vector2(408, 799)
+[node name="Ground" parent="." index="4"]
+position = Vector2(272, 512)
 
 [node name="Block8" parent="." index="5" instance=ExtResource("6_jm468")]
-position = Vector2(442, 442)
+position = Vector2(272, 376)
 
 [node name="Block10" parent="." index="6" instance=ExtResource("6_jm468")]
-position = Vector2(374, 442)
+position = Vector2(240, 376)
 
 [node name="Block12" parent="." index="7" instance=ExtResource("6_jm468")]
-position = Vector2(442, 510)
+position = Vector2(272, 344)
 
 [node name="Block14" parent="." index="8" instance=ExtResource("6_jm468")]
-position = Vector2(374, 510)
+position = Vector2(240, 344)
 
 [node name="Block15" parent="." index="9" instance=ExtResource("6_jm468")]
-position = Vector2(374, 578)
+position = Vector2(240, 408)
 
 [node name="Block13" parent="." index="10" instance=ExtResource("6_jm468")]
-position = Vector2(442, 578)
+position = Vector2(272, 408)
 
-[node name="Block5" parent="." index="11" instance=ExtResource("7_squy2")]
-position = Vector2(476, 442)
+[node name="StaticBlock8" parent="." index="11" instance=ExtResource("4_cq4c8")]
+position = Vector2(224, 440)
 
-[node name="Block6" parent="." index="12" instance=ExtResource("7_squy2")]
-position = Vector2(476, 578)
+[node name="StaticBlock9" parent="." index="12" instance=ExtResource("4_cq4c8")]
+position = Vector2(288, 440)
 
-[node name="Block11" parent="." index="13" instance=ExtResource("7_squy2")]
-position = Vector2(340, 578)
+[node name="Block5" parent="." index="13" instance=ExtResource("7_squy2")]
+position = Vector2(288, 344)
 
-[node name="Block16" parent="." index="14" instance=ExtResource("7_squy2")]
-position = Vector2(340, 510)
+[node name="Block6" parent="." index="14" instance=ExtResource("7_squy2")]
+position = Vector2(288, 408)
 
-[node name="Block17" parent="." index="15" instance=ExtResource("7_squy2")]
-position = Vector2(340, 442)
+[node name="Block11" parent="." index="15" instance=ExtResource("7_squy2")]
+position = Vector2(224, 408)
 
-[node name="Block7" parent="." index="16" instance=ExtResource("7_squy2")]
-position = Vector2(476, 510)
+[node name="Block16" parent="." index="16" instance=ExtResource("7_squy2")]
+position = Vector2(224, 344)
 
-[node name="Block" parent="." index="17" instance=ExtResource("5_gh114")]
-position = Vector2(408, 408)
+[node name="Block17" parent="." index="17" instance=ExtResource("7_squy2")]
+position = Vector2(224, 376)
+
+[node name="Block7" parent="." index="18" instance=ExtResource("7_squy2")]
+position = Vector2(288, 376)
+
+[node name="Block" parent="." index="19" instance=ExtResource("5_gh114")]
+position = Vector2(256, 328)
 rotation = 1.5708
 
-[node name="Block2" parent="." index="18" instance=ExtResource("5_gh114")]
-position = Vector2(408, 476)
+[node name="Block2" parent="." index="20" instance=ExtResource("5_gh114")]
+position = Vector2(256, 360)
 rotation = 1.5708
 
-[node name="Block4" parent="." index="19" instance=ExtResource("5_gh114")]
-position = Vector2(408, 544)
+[node name="Block4" parent="." index="21" instance=ExtResource("5_gh114")]
+position = Vector2(256, 392)
 rotation = 1.5708
 
-[node name="Block9" parent="." index="20" instance=ExtResource("5_gh114")]
-position = Vector2(408, 612)
+[node name="Block9" parent="." index="22" instance=ExtResource("5_gh114")]
+position = Vector2(256, 424)
 rotation = 1.5708
-
-[node name="StaticBlock" parent="." index="21" instance=ExtResource("4_cq4c8")]
-position = Vector2(340, 646)
-
-[node name="StaticBlock2" parent="." index="22" instance=ExtResource("4_cq4c8")]
-position = Vector2(476, 646)

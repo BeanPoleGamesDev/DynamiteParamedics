@@ -12,57 +12,54 @@
 texture_filter = 1
 
 [node name="RigidBody2D" parent="." index="1" instance=ExtResource("2_8qjq6")]
-position = Vector2(425, -85)
+position = Vector2(264, -40)
 rotation = 3.14159
 
 [node name="flag" parent="." index="2" instance=ExtResource("3_8pdq5")]
-position = Vector2(408, 782)
-
-[node name="Ground" parent="." index="3"]
-position = Vector2(408, 799)
+position = Vector2(256, 504)
 
 [node name="Block5" parent="." index="5" instance=ExtResource("7_58awt")]
-position = Vector2(527, 629)
+position = Vector2(312, 432)
 
 [node name="Block10" parent="." index="6" instance=ExtResource("7_58awt")]
-position = Vector2(408, 663)
+position = Vector2(256, 448)
 rotation = 1.5708
 
 [node name="Block4" parent="." index="7" instance=ExtResource("7_58awt")]
-position = Vector2(289, 629)
+position = Vector2(200, 432)
 
 [node name="Block" parent="." index="8" instance=ExtResource("11_dur4v")]
-position = Vector2(289, 731)
+position = Vector2(200, 480)
 
 [node name="Block6" parent="." index="9" instance=ExtResource("11_dur4v")]
-position = Vector2(289, 527)
+position = Vector2(312, 384)
 
 [node name="Block7" parent="." index="10" instance=ExtResource("11_dur4v")]
-position = Vector2(323, 459)
+position = Vector2(312, 480)
 
 [node name="Block2" parent="." index="11" instance=ExtResource("11_dur4v")]
-position = Vector2(527, 731)
+position = Vector2(216, 352)
 
 [node name="Block3" parent="." index="12" instance=ExtResource("11_dur4v")]
-position = Vector2(527, 527)
+position = Vector2(296, 352)
 
 [node name="Block8" parent="." index="13" instance=ExtResource("11_dur4v")]
-position = Vector2(493, 459)
+position = Vector2(200, 384)
 
 [node name="Block9" parent="." index="14" instance=ExtResource("8_aikcg")]
-position = Vector2(374, 612)
+position = Vector2(240, 424)
 
 [node name="Block12" parent="." index="15" instance=ExtResource("8_aikcg")]
-position = Vector2(374, 544)
+position = Vector2(240, 392)
 rotation = 1.5708
 
 [node name="Block13" parent="." index="16" instance=ExtResource("8_aikcg")]
-position = Vector2(442, 544)
+position = Vector2(272, 392)
 rotation = 3.14159
 
 [node name="Block14" parent="." index="17" instance=ExtResource("8_aikcg")]
-position = Vector2(442, 612)
+position = Vector2(272, 424)
 rotation = 4.71239
 
 [node name="Block15" parent="." index="18" instance=ExtResource("8_n10ym")]
-position = Vector2(408, 578)
+position = Vector2(256, 408)
