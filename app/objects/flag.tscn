@@ -1,8 +1,8 @@
 [gd_scene load_steps=5 format=3 uid="uid://dlc1kon5iqevb"]
 
 [ext_resource type="Script" path="res://app/objects/flag.gd" id="1_8oofb"]
-[ext_resource type="Texture2D" uid="uid://dl3us7bqthvah" path="res://assets/CheckeredFlag.png" id="1_n1og2"]
-[ext_resource type="Texture2D" uid="uid://254hdnu3qsmv" path="res://assets/NotDeadGuy-SpriteSheet.png" id="3_iaivh"]
+[ext_resource type="Texture2D" uid="uid://oeamf1817iew" path="res://assets/CheckeredFlag.png" id="1_n1og2"]
+[ext_resource type="Texture2D" uid="uid://dhqfq2ng8oyqy" path="res://assets/NotDeadGuy-SpriteSheet.png" id="3_iaivh"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_never"]
 size = Vector2(34, 34)
