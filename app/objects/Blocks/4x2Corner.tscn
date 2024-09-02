@@ -1,7 +1,7 @@
 [gd_scene load_steps=7 format=3 uid="uid://613q751wekob"]
 
 [ext_resource type="PackedScene" uid="uid://b5iw6y8hrwoph" path="res://app/objects/Blocks/Block.tscn" id="1_mgn2f"]
-[ext_resource type="Texture2D" uid="uid://w5v5kgy2xp4w" path="res://assets/blocks/corner2x4.png" id="2_vr4xa"]
+[ext_resource type="Texture2D" uid="uid://0qalfwj87wqb" path="res://assets/blocks/corner2x4.png" id="2_vr4xa"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ar2c7"]
 size = Vector2(20, 136)
@@ -16,7 +16,7 @@ height = 136.0
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_2ohsg"]
 height = 34.0
 
-[node name="Block" instance=ExtResource("1_mgn2f")]
+[node name="Block3" instance=ExtResource("1_mgn2f")]
 
 [node name="Sprite2D" type="Sprite2D" parent="." index="0"]
 scale = Vector2(2.125, 2.125)
