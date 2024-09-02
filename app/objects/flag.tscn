@@ -1,8 +1,8 @@
 [gd_scene load_steps=6 format=3 uid="uid://dlc1kon5iqevb"]
 
 [ext_resource type="Script" path="res://app/objects/flag.gd" id="1_8oofb"]
-[ext_resource type="Texture2D" uid="uid://dl3us7bqthvah" path="res://assets/CheckeredFlag.png" id="1_n1og2"]
-[ext_resource type="Texture2D" uid="uid://254hdnu3qsmv" path="res://assets/NotDeadGuy-SpriteSheet.png" id="3_iaivh"]
+[ext_resource type="Texture2D" uid="uid://ds0uf1gliivsa" path="res://assets/CheckeredFlag.png" id="1_n1og2"]
+[ext_resource type="Texture2D" uid="uid://xwc5ylookc8w" path="res://assets/NotDeadGuy-SpriteSheet.png" id="3_iaivh"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_never"]
 size = Vector2(64, 65)
@@ -34,6 +34,7 @@ position = Vector2(51, -9)
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
 position = Vector2(-5, 0)
 shape = SubResource("RectangleShape2D_cvwkx")
+disabled = true
 
 [node name="Sprite2D2" type="Sprite2D" parent="StaticBody2D"]
 z_index = 1
