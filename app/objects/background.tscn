@@ -12,6 +12,7 @@
 scale = Vector2(2.125, 2.125)
 transform = Transform2D(2.125, 0, 0, 2.125, 0, 0)
 script = ExtResource("1_1fl22")
+speed = 50
 
 [node name="sky" type="ParallaxLayer" parent="."]
 motion_scale = Vector2(0, 0)
@@ -29,14 +30,16 @@ position = Vector2(310, 96)
 texture = ExtResource("2_0o37k")
 
 [node name="helcopter1" type="ParallaxLayer" parent="."]
-motion_scale = Vector2(0.3, 0.3)
+motion_scale = Vector2(-2, -2)
+motion_mirroring = Vector2(1920, 0)
 
 [node name="Sprite2D" type="Sprite2D" parent="helcopter1"]
 position = Vector2(57.8823, 49.8824)
 texture = ExtResource("3_bkc41")
 
 [node name="helcopter2" type="ParallaxLayer" parent="."]
-motion_scale = Vector2(-0.2, -0.2)
+motion_scale = Vector2(2.4, 2.4)
+motion_mirroring = Vector2(3072, 0)
 
 [node name="Sprite2D" type="Sprite2D" parent="helcopter2"]
 position = Vector2(361.412, 164.235)
@@ -51,7 +54,7 @@ texture = ExtResource("4_phrp1")
 offset = Vector2(576, 192)
 
 [node name="clouds2" type="ParallaxLayer" parent="."]
-motion_scale = Vector2(-0.8, -0.8)
+motion_scale = Vector2(-0.7, -0.7)
 motion_mirroring = Vector2(1152, 0)
 
 [node name="Sprite2D" type="Sprite2D" parent="clouds2"]
