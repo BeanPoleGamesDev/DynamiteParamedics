@@ -86,4 +86,3 @@ rotation = 1.5708
 [node name="Block9" parent="." index="25" instance=ExtResource("5_gh114")]
 position = Vector2(391, 612)
 rotation = 1.5708
->>>>>>> master
