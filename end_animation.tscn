@@ -1,0 +1,82 @@
+[gd_scene load_steps=18 format=3 uid="uid://dlpbgetutmd6q"]
+
+[ext_resource type="Texture2D" uid="uid://ca4w85y3qpyuh" path="res://assets/miriamAnimation2/Untitled18_20240901213918.webp" id="1_48fy4"]
+[ext_resource type="Texture2D" uid="uid://bdgvp1av4nuyj" path="res://assets/miriamAnimation2/Untitled18_20240901214020.webp" id="2_le0wk"]
+[ext_resource type="Texture2D" uid="uid://c0iuvmr8wif3d" path="res://assets/miriamAnimation2/Untitled18_20240901214035.webp" id="3_1peel"]
+[ext_resource type="Texture2D" uid="uid://ew1x07emt0wk" path="res://assets/miriamAnimation2/Untitled18_20240901214050.webp" id="4_rxc7g"]
+[ext_resource type="Texture2D" uid="uid://ciwg1i06rrrs5" path="res://assets/miriamAnimation2/Untitled18_20240901214109.webp" id="5_82xrw"]
+[ext_resource type="Texture2D" uid="uid://c8mxlt7y06nvc" path="res://assets/miriamAnimation2/Untitled18_20240901214137.webp" id="6_hdqkj"]
+[ext_resource type="Texture2D" uid="uid://qe62kp0376q2" path="res://assets/miriamAnimation2/Untitled18_20240901214202.webp" id="7_1e2rm"]
+[ext_resource type="Texture2D" uid="uid://cdr61wf5uuaed" path="res://assets/miriamAnimation2/Untitled18_20240901214213.webp" id="8_7q2wn"]
+[ext_resource type="Texture2D" uid="uid://c5plkbtjcj4jv" path="res://assets/miriamAnimation2/Untitled18_20240901214312.webp" id="9_xqaxx"]
+[ext_resource type="Texture2D" uid="uid://dlqjr7ilojwnj" path="res://assets/miriamAnimation2/Untitled18_20240901214341.webp" id="10_uil31"]
+[ext_resource type="Texture2D" uid="uid://qgplmdvuei3s" path="res://assets/miriamAnimation2/Untitled18_20240901214351.webp" id="11_0yay2"]
+[ext_resource type="Texture2D" uid="uid://dho3yn55lwsuf" path="res://assets/miriamAnimation2/Untitled18_20240901214405 (1).webp" id="12_8iru7"]
+[ext_resource type="Texture2D" uid="uid://dnhtypatpakej" path="res://assets/miriamAnimation2/Untitled18_20240901214405.webp" id="13_ep26t"]
+[ext_resource type="Texture2D" uid="uid://diwj5v0i7qycw" path="res://assets/miriamAnimation2/Untitled18_20240901214458.webp" id="14_jiw6d"]
+[ext_resource type="Texture2D" uid="uid://d2m0ptb36rsj6" path="res://assets/miriamAnimation2/Untitled18_20240901214512.webp" id="15_dupwo"]
+[ext_resource type="Texture2D" uid="uid://cvmdid663rk7t" path="res://assets/miriamAnimation2/Untitled18_20240901214550.webp" id="16_av7ow"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_4s06x"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_48fy4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_le0wk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_1peel")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_rxc7g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_82xrw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_hdqkj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_1e2rm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_7q2wn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_xqaxx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_uil31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_0yay2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_8iru7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_ep26t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_jiw6d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_dupwo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_av7ow")
+}],
+"loop": false,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="end_animation" type="Node2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+scale = Vector2(1.3038, 1.29905)
+sprite_frames = SubResource("SpriteFrames_4s06x")
+autoplay = "default"
+centered = false
