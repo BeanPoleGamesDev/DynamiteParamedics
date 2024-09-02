@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://4mfqbl8yjvso"]
+
+[ext_resource type="Script" path="res://app/autoloads/sound_global.gd" id="1_6wnr0"]
+[ext_resource type="AudioStream" uid="uid://dmh521ndn48dt" path="res://assets/SoundEffects/explosion-91872.mp3" id="2_d51sd"]
+
+[node name="sound_global" type="Node"]
+script = ExtResource("1_6wnr0")
+
+[node name="explosion" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_d51sd")
+
+[node name="rock_break" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_d51sd")
+
+[node name="helicopter" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_d51sd")
+
+[node name="siren" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_d51sd")

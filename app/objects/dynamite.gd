@@ -41,6 +41,7 @@ func _on_dynamite_fuse_timer_timeout():
 
 func blow_up():
 	do_explosion_effect()
+	SoundGlobal.play_explosion()
 	if area_of_affect.has_overlapping_bodies():
 		for body in area_of_affect.get_overlapping_bodies():
 			do_knockback(body)
