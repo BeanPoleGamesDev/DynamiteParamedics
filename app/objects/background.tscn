@@ -1,12 +1,12 @@
 [gd_scene load_steps=8 format=3 uid="uid://bqapfsud5m86i"]
 
 [ext_resource type="Script" path="res://app/objects/background.gd" id="1_1fl22"]
-[ext_resource type="Texture2D" uid="uid://dp45eekhguql" path="res://assets/background/sky.png" id="1_liqmh"]
-[ext_resource type="Texture2D" uid="uid://uutfm7c7mq0i" path="res://assets/background/sun.png" id="2_0o37k"]
-[ext_resource type="Texture2D" uid="uid://5a3wpuf1heo" path="res://assets/BackroundHelicopter1.png" id="3_bkc41"]
-[ext_resource type="Texture2D" uid="uid://cscti3lxb4lhf" path="res://assets/BackroundHelicopter2.png" id="4_omurb"]
-[ext_resource type="Texture2D" uid="uid://dpdb5u4tiaipf" path="res://assets/background/cloud1.png" id="4_phrp1"]
-[ext_resource type="Texture2D" uid="uid://dyfbwmpeyxqmy" path="res://assets/background/cloud2.png" id="5_tk53c"]
+[ext_resource type="Texture2D" uid="uid://crfk8q767mo6a" path="res://assets/background/sky.png" id="1_liqmh"]
+[ext_resource type="Texture2D" uid="uid://6ystmxtlm0it" path="res://assets/background/sun.png" id="2_0o37k"]
+[ext_resource type="Texture2D" uid="uid://cetfp4y0kfjmw" path="res://assets/BackroundHelicopter1.png" id="3_bkc41"]
+[ext_resource type="Texture2D" uid="uid://dimjgkj835fkn" path="res://assets/BackroundHelicopter2.png" id="4_omurb"]
+[ext_resource type="Texture2D" uid="uid://chuxi74ovaf4w" path="res://assets/background/cloud1.png" id="4_phrp1"]
+[ext_resource type="Texture2D" uid="uid://bw0m4a7qwhrl" path="res://assets/background/cloud2.png" id="5_tk53c"]
 
 [node name="Background" type="ParallaxBackground"]
 scale = Vector2(2.125, 2.125)

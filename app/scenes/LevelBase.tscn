@@ -3,9 +3,9 @@
 [ext_resource type="PackedScene" uid="uid://pr1xavi16le1" path="res://app/objects/Ground.tscn" id="1_84h51"]
 [ext_resource type="PackedScene" uid="uid://bqapfsud5m86i" path="res://app/objects/background.tscn" id="1_l70hs"]
 [ext_resource type="PackedScene" uid="uid://dol605qulc5gl" path="res://app/objects/GuiLayer.tscn" id="2_0u60y"]
-[ext_resource type="PackedScene" path="res://app/objects/Mouse Click.tscn" id="3_14x4k"]
-[ext_resource type="PackedScene" path="res://app/objects/score.tscn" id="4_akoc1"]
-[ext_resource type="PackedScene" path="res://app/objects/death_boundry.tscn" id="5_hsmab"]
+[ext_resource type="PackedScene" uid="uid://cu4nn3n8c55l8" path="res://app/objects/Mouse Click.tscn" id="3_14x4k"]
+[ext_resource type="PackedScene" uid="uid://bm4vsc8bp5iop" path="res://app/objects/score.tscn" id="4_akoc1"]
+[ext_resource type="PackedScene" uid="uid://s6d4wj1phk88" path="res://app/objects/death_boundry.tscn" id="5_hsmab"]
 
 [node name="LevelBase" type="Node2D"]
 
