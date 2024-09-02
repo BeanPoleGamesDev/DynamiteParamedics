@@ -1,0 +1,10 @@
+[gd_scene load_steps=5 format=3 uid="uid://buefo6lkbo07a"]
+
+[ext_resource type="Script" path="res://app/autoloads/nav.gd" id="1_i2pr6"]
+[ext_resource type="PackedScene" uid="uid://br6wr6v8oulnp" path="res://app/scenes/LevelOne.tscn" id="2_nmbki"]
+[ext_resource type="PackedScene" uid="uid://bgo7w0fyol4cu" path="res://app/scenes/LevelTwo.tscn" id="3_r0bn5"]
+[ext_resource type="PackedScene" uid="uid://b6gndovnhmqgu" path="res://app/scenes/LevelThree.tscn" id="4_0r23r"]
+
+[node name="Nav" type="Node"]
+script = ExtResource("1_i2pr6")
+views = Array[PackedScene]([ExtResource("2_nmbki"), ExtResource("3_r0bn5"), ExtResource("4_0r23r")])
