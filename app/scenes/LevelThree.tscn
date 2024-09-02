@@ -105,3 +105,6 @@ rotation = 1.5708
 
 [node name="Block28" parent="." index="31" instance=ExtResource("9_r74nm")]
 position = Vector2(408, 748)
+
+[node name="Score" parent="." index="33"]
+metadata/_edit_lock_ = true
