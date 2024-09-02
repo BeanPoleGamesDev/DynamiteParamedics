@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://ch5homj2xao41" path="res://assets/Dynamite-SpriteSheet.png" id="2_8qflc"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_rwcx2"]
-radius = 43.0
+radius = 61.0082
 
 [sub_resource type="Animation" id="Animation_jaarn"]
 resource_name = "explosion"
@@ -38,6 +38,7 @@ shape = SubResource("CircleShape2D_rwcx2")
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture_filter = 1
 position = Vector2(-4.76837e-07, 5.96046e-07)
+scale = Vector2(2.125, 2.125)
 texture = ExtResource("2_8qflc")
 hframes = 4
 

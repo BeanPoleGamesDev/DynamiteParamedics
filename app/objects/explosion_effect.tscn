@@ -1,6 +1,6 @@
 [gd_scene load_steps=10 format=3 uid="uid://24flq08an8bq"]
 
-[ext_resource type="Texture2D" uid="uid://h2wnbtyubgn2" path="res://assets/Explosion-SpriteSheet.png" id="1_1p0mm"]
+[ext_resource type="Texture2D" uid="uid://b8jncqubcyocr" path="res://assets/Explosion-SpriteSheet.png" id="1_1p0mm"]
 [ext_resource type="Script" path="res://app/objects/explosion_effect.gd" id="1_6xm2v"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_0nhfx"]
@@ -58,6 +58,7 @@ texture_filter = 1
 script = ExtResource("1_6xm2v")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+scale = Vector2(2.125, 2.125)
 sprite_frames = SubResource("SpriteFrames_x3y3r")
 autoplay = "default"
 

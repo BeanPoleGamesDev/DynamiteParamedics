@@ -1,10 +1,10 @@
 [gd_scene load_steps=4 format=3 uid="uid://dlc1kon5iqevb"]
 
-[ext_resource type="Script" path="res://flag.gd" id="1_8oofb"]
+[ext_resource type="Script" path="res://app/objects/flag.gd" id="1_8oofb"]
 [ext_resource type="Texture2D" uid="uid://oeamf1817iew" path="res://assets/CheckeredFlag.png" id="1_n1og2"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_never"]
-size = Vector2(46, 40)
+size = Vector2(64, 65)
 
 [node name="flag" type="Node2D"]
 script = ExtResource("1_8oofb")
@@ -12,12 +12,13 @@ script = ExtResource("1_8oofb")
 [node name="Area2D" type="Area2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
-position = Vector2(0, -20)
+position = Vector2(3, -32.5)
 shape = SubResource("RectangleShape2D_never")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture_filter = 1
-position = Vector2(0, -16)
+position = Vector2(0, -34)
+scale = Vector2(2.125, 2.125)
 texture = ExtResource("1_n1og2")
 
 [connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]

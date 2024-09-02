@@ -1,13 +1,16 @@
-[gd_scene load_steps=4 format=3 uid="uid://br6wr6v8oulnp"]
+[gd_scene load_steps=6 format=3 uid="uid://br6wr6v8oulnp"]
 
 [ext_resource type="PackedScene" uid="uid://dics4vpm8vwke" path="res://app/scenes/LevelBase.tscn" id="1_6tp2w"]
 [ext_resource type="PackedScene" uid="uid://ccevlx5p0brdm" path="res://app/objects/Blocks/Square.tscn" id="2_d1tcx"]
 [ext_resource type="PackedScene" uid="uid://5gyywbjp2kwa" path="res://app/objects/Dynamite.tscn" id="3_pk5hu"]
+[ext_resource type="PackedScene" uid="uid://um1mj5quqvhy" path="res://app/objects/Ambulance.tscn" id="4_rin53"]
+[ext_resource type="PackedScene" uid="uid://dlc1kon5iqevb" path="res://app/objects/flag.tscn" id="5_dpxc6"]
 
 [node name="LevelBase" instance=ExtResource("1_6tp2w")]
+texture_filter = 1
 
 [node name="Block" parent="." index="0" instance=ExtResource("2_d1tcx")]
-position = Vector2(254, 124)
+position = Vector2(319, 50)
 
 [node name="Dynamite" parent="Block" index="4" instance=ExtResource("3_pk5hu")]
 
@@ -18,7 +21,7 @@ position = Vector2(164, 65)
 position = Vector2(326, 97)
 
 [node name="Block4" parent="." index="3" instance=ExtResource("2_d1tcx")]
-position = Vector2(236, 38)
+position = Vector2(250, 48)
 
 [node name="Block5" parent="." index="4" instance=ExtResource("2_d1tcx")]
 position = Vector2(329, 138)
@@ -173,11 +176,11 @@ position = Vector2(301, 609)
 [node name="Block55" parent="." index="54" instance=ExtResource("2_d1tcx")]
 position = Vector2(436, 637)
 
-[node name="Block56" parent="." index="55" instance=ExtResource("2_d1tcx")]
-position = Vector2(346, 578)
-
-[node name="Block57" parent="." index="56" instance=ExtResource("2_d1tcx")]
+[node name="Block57" parent="." index="55" instance=ExtResource("2_d1tcx")]
 position = Vector2(508, 610)
+
+[node name="Block56" parent="." index="56" instance=ExtResource("2_d1tcx")]
+position = Vector2(346, 578)
 
 [node name="Block58" parent="." index="57" instance=ExtResource("2_d1tcx")]
 position = Vector2(418, 551)
@@ -187,3 +190,9 @@ position = Vector2(511, 651)
 
 [node name="Block60" parent="." index="59" instance=ExtResource("2_d1tcx")]
 position = Vector2(421, 592)
+
+[node name="RigidBody2D" parent="." index="61" instance=ExtResource("4_rin53")]
+position = Vector2(341, -57)
+
+[node name="flag" parent="." index="62" instance=ExtResource("5_dpxc6")]
+position = Vector2(415, 776)
