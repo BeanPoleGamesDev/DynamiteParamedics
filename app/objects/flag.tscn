@@ -1,4 +1,4 @@
-[gd_scene load_steps=5 format=3 uid="uid://dlc1kon5iqevb"]
+[gd_scene load_steps=6 format=3 uid="uid://dlc1kon5iqevb"]
 
 [ext_resource type="Script" path="res://app/objects/flag.gd" id="1_8oofb"]
 [ext_resource type="Texture2D" uid="uid://oeamf1817iew" path="res://assets/CheckeredFlag.png" id="1_n1og2"]
@@ -6,6 +6,9 @@
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_never"]
 size = Vector2(64, 65)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_cvwkx"]
+size = Vector2(48, 20)
 
 [node name="flag" type="Node2D"]
 script = ExtResource("1_8oofb")
@@ -23,14 +26,21 @@ position = Vector2(0, -34)
 scale = Vector2(2.125, 2.125)
 texture = ExtResource("1_n1og2")
 
-[node name="Sprite2D2" type="Sprite2D" parent="."]
+[node name="Timer" type="Timer" parent="."]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+position = Vector2(51, -9)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(-5, 0)
+shape = SubResource("RectangleShape2D_cvwkx")
+
+[node name="Sprite2D2" type="Sprite2D" parent="StaticBody2D"]
 z_index = 1
 texture_filter = 1
-position = Vector2(71, -25)
+position = Vector2(20, -16)
 scale = Vector2(2.125, 2.125)
 texture = ExtResource("3_iaivh")
-
-[node name="Timer" type="Timer" parent="."]
 
 [connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
 [connection signal="body_exited" from="Area2D" to="." method="_on_area_2d_body_exited"]
