@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://dlp201hrn1dfd"]
 
 [ext_resource type="PackedScene" uid="uid://b5iw6y8hrwoph" path="res://app/objects/Blocks/Block.tscn" id="1_v8ef8"]
-[ext_resource type="Texture2D" uid="uid://drdqulek2wf17" path="res://assets/blocks/cir2x2.png" id="2_f2ych"]
+[ext_resource type="Texture2D" uid="uid://clcga1d1ejqjs" path="res://assets/blocks/cir2x2.png" id="2_f2ych"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_gyk4d"]
 radius = 35.0571

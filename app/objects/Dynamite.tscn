@@ -1,7 +1,7 @@
 [gd_scene load_steps=6 format=3 uid="uid://5gyywbjp2kwa"]
 
 [ext_resource type="Script" path="res://app/objects/dynamite.gd" id="1_4dkje"]
-[ext_resource type="Texture2D" uid="uid://ch5homj2xao41" path="res://assets/Dynamite-SpriteSheet.png" id="2_8qflc"]
+[ext_resource type="Texture2D" uid="uid://dmuc2ox5gwjjq" path="res://assets/Dynamite-SpriteSheet.png" id="2_8qflc"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_rwcx2"]
 radius = 43.0

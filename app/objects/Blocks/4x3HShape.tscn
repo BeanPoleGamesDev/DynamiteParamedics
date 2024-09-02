@@ -1,7 +1,7 @@
 [gd_scene load_steps=6 format=3 uid="uid://ka3giuyj5gmc"]
 
 [ext_resource type="PackedScene" uid="uid://b5iw6y8hrwoph" path="res://app/objects/Blocks/Block.tscn" id="1_wp4mo"]
-[ext_resource type="Texture2D" uid="uid://4o27qt4fhtwa" path="res://assets/blocks/h3x4.png" id="2_bn3js"]
+[ext_resource type="Texture2D" uid="uid://w0jio8vc8nes" path="res://assets/blocks/h3x4.png" id="2_bn3js"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_oo50t"]
 size = Vector2(20, 102)
